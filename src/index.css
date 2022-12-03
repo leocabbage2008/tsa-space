@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@900&family=Staatliches&display=swap');
+h1 {
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  transition: transform 250ms;
+  color: steelblue;
+}
+
+a:hover {
+  transform: translateX(3px);
+}
+
+a:visited {
+  color: steelblue;
+}
