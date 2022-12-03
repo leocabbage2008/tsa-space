@@ -7,12 +7,14 @@ h1 {
 a {
   font-family: 'Staatliches', cursive;
   text-decoration: none;
-  transition: transform 250ms;
+  transition: transform 250ms ease-in-out;
   color: steelblue;
+  float: left;
+  clear: left;
 }
 
 a:hover {
-  transform: translateX(3px);
+  transform: translateX(5px);
 }
 
 a:visited {

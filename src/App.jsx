@@ -5,11 +5,11 @@ import {
   Route,
   Navigate,
 } from 'react-router-dom';
-import './index.css';
-import SourcesPage from './pages/SourcesPage';
-import ReferencePage from './pages/ReferencePage';
-import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
+import './assets/css/index.css';
+import SourcesPage from './pages/SourcesPage.jsx';
+import ReferencePage from './pages/ReferencePage.jsx';
+import ErrorPage from './pages/ErrorPage.jsx';
+import HomePage from './pages/HomePage.jsx';
 const App = () => (
   <Router>
     <Routes>
