@@ -1,0 +1,36 @@
+#main {
+  padding: 10px 20px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  min-height: 40px;
+  display: flex;
+  background-color: var(--grey);
+  color: var(--cream);
+  padding: 20px;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+ul {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.footer-right {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.float-left {
+  float: left;
+}

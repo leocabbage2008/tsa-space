@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from '.././components/Navbar.jsx';
-
+import Layout from '../components/Layout';
 export default function HomePage() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>Home Page</h1>
       <span>
         <a href='/error'>error</a>
@@ -15,6 +13,6 @@ export default function HomePage() {
       <span>
         <a href='/ref'>references</a>
       </span>
-    </div>
+    </Layout>
   );
 }
