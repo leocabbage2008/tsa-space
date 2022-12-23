@@ -26,6 +26,7 @@ export default function Layout({ children, title }) {
           <p>hello</p>
           <p>hello</p>
           <p>hello</p>
+          <p>{currentYear}</p>
         </div>
       </footer>
     </>

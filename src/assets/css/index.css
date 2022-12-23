@@ -10,6 +10,16 @@
   --grey: #373737;
   --steel-blue: rgb(83, 165, 233);
   --cream: #f5f5f5;
+  /* CSS HEX */
+  --flickr-pink: #f72585ff;
+  --byzantine: #b5179eff;
+  --purple: #7209b7ff;
+  --trypan-blue: #480ca8ff;
+  --trypan-blue-2: #3a0ca3ff;
+  --persian-blue: #3f37c9ff;
+  --ultramarine-blue: #4361eeff;
+  --dodger-blue: #4895efff;
+  --vivid-sky-blue: #4cc9f0ff;
 }
 
 h1,
