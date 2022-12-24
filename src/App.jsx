@@ -10,6 +10,7 @@ import SourcesPage from './pages/SourcesPage.jsx';
 import ReferencePage from './pages/ReferencePage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
+import DetailsPage from './pages/DetailsPage';
 const App = () => (
   <Router>
     <Routes>
@@ -17,6 +18,7 @@ const App = () => (
       <Route exact path='/home' element={<Navigate to='/' />} />
       <Route exact path='/sources' element={<SourcesPage />} />
       <Route exact path='/ref' element={<ReferencePage />} />
+      <Route exact path='/details' element={<DetailsPage />} />
       <Route path='*' element={<ErrorPage />} />
     </Routes>
   </Router>

@@ -13,6 +13,9 @@ export default function HomePage() {
       <span>
         <a href='/ref'>references</a>
       </span>
+      <span>
+        <a href='/details'>details</a>
+      </span>
     </Layout>
   );
 }
