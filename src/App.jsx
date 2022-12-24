@@ -6,8 +6,6 @@ import {
   Navigate,
 } from 'react-router-dom';
 import './assets/css/index.css';
-import './assets/css/Layout.css';
-import './assets/css/Navbar.css';
 import SourcesPage from './pages/SourcesPage.jsx';
 import ReferencePage from './pages/ReferencePage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';

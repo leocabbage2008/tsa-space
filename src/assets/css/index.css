@@ -36,8 +36,6 @@ a {
   float: left;
   clear: left;
   transition: all 0.3s ease 0s;
-}
-a:visited {
   color: var(--pink);
 }
 
@@ -51,4 +49,16 @@ a:active {
 
 button {
   border-style: none;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid var(--byzantine);
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
 }

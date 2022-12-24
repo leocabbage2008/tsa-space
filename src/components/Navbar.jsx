@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
 import space from '.././assets/images/space.jpg';
+import '.././assets/css/Navbar.css';
 import classNames from 'classnames';
 
 export default function Navbar() {
   const [sidebar, setSidebar] = useState(false);
-  const [hamburger, setHamburger] = useState(false);
   const toggle = () => {
     setSidebar(!sidebar);
-    setHamburger(!hamburger);
     if (document.body.style.overflow === 'hidden')
       document.body.style.overflow = 'visible';
     else document.body.style.overflow = 'hidden';
   };
   return (
     <>
+      <div className={classNames('tint', { 'active-tint': sidebar })} />
       <nav>
         <a href='/' className='logo-link'>
           <img className='logo' src={space} alt='' />
         </a>
         <ul className='nav-links'>
           <li>
-            <a href='/error'>Page 1</a>
+            <a href='/'>Home</a>
           </li>
           <li>
-            <a href='/sources'>Page 2</a>
+            <a href='/error'>Error</a>
           </li>
           <li>
-            <a href='/'>Page 3</a>
+            <a href='/sources'>Sources</a>
           </li>
         </ul>
         <button
-          className={classNames('burger', { 'active-burger': hamburger })}
+          className={classNames('burger', { 'active-burger': sidebar })}
           onClick={toggle}
         >
           <div className='line1'></div>
@@ -41,13 +41,25 @@ export default function Navbar() {
       <div className={classNames('sidebar', { active: sidebar })}>
         <ul className='sidebar-links'>
           <li>
-            <a href='/ref'>ref!</a>
+            <a href='/ref'>Ref</a>
           </li>
           <li>
-            <a href='/'>home</a>
+            <hr />
+          </li>
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <hr />
+          </li>
+          <li>
+            <a href='/'>About</a>
           </li>
         </ul>
       </div>
+      <div
+        className={classNames('sidecover', { 'sidecover-active': sidebar })}
+      />
     </>
   );
 }

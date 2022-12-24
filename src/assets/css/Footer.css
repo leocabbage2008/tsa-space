@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  background-color: var(--black);
+  color: var(--cream);
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.sitemap {
+  margin-left: 30px;
+}
+
+.sitemap ul {
+  padding-top: 5px;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.sitemap a:hover {
+  transform: translate(3px);
+}
+
+.sitemap-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1rem;
+}
+
+.footer-right {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1rem;
+}
+
+.footer-right > * {
+  margin: 0 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-logo-link {
+  height: 100%;
+  width: auto;
+}
