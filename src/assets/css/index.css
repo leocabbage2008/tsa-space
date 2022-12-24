@@ -7,19 +7,22 @@
 }
 
 :root {
-  --grey: #373737;
-  --steel-blue: rgb(83, 165, 233);
+  --black: #212529;
+  --grey: #adb5bd;
+  --steel-blue: #53a5e9;
   --cream: #f5f5f5;
   /* CSS HEX */
+  /* from coolors.co */
   --flickr-pink: #f72585ff;
+  --pink: #ff4d79ff;
   --byzantine: #b5179eff;
   --purple: #7209b7ff;
   --trypan-blue: #480ca8ff;
   --trypan-blue-2: #3a0ca3ff;
   --persian-blue: #3f37c9ff;
-  --ultramarine-blue: #4361eeff;
-  --dodger-blue: #4895efff;
-  --vivid-sky-blue: #4cc9f0ff;
+  --ultra-blue: #4361eeff;
+  --blue: #4895efff;
+  --vivid-blue: #4cc9f0ff;
 }
 
 h1,
@@ -30,16 +33,22 @@ p {
 a {
   font-family: 'Staatliches', cursive;
   text-decoration: none;
-  transition: transform 250ms ease-in-out;
-  color: var(--steel-blue);
   float: left;
   clear: left;
+  transition: all 0.3s ease 0s;
+}
+a:visited {
+  color: var(--pink);
 }
 
 a:hover {
-  transform: translateX(5px);
+  color: var(--flickr-pink);
 }
 
-a:visited {
-  color: var(--steel-blue);
+a:active {
+  color: var(--byzantine);
+}
+
+button {
+  border-style: none;
 }

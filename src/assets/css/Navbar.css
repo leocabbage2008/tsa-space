@@ -1,0 +1,118 @@
+nav.a {
+  text-decoration: none;
+}
+
+nav {
+  z-index: 300;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  padding: 1rem;
+}
+
+.nav-links {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  font-size: medium;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links li {
+    padding: 0 20px;
+  }
+}
+
+.sidebar-links {
+  list-style: none;
+}
+
+.sidebar {
+  z-index: 200;
+  background: var(--black);
+  transform: translateX(100vw);
+  position: fixed;
+  top: 0;
+  height: 100vw;
+  opacity: 0;
+  width: 30vw;
+  /* to avoid repainting only use transform and opacity */
+  transition: transform 0.5s, opacity 0.5s linear;
+}
+
+.sidebar.active {
+  opacity: 1;
+  transform: translateX(75vw);
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    width: 40vw;
+  }
+  .sidebar.active {
+    transform: translateX(70vw);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 60vw;
+  }
+  .sidebar.active {
+    transform: translateX(60vw);
+  }
+}
+
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.logo-link {
+  width: 100px;
+}
+
+.burger {
+  transition: transform 0.5s ease-in-out;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.burger div {
+  transition: background-color 0.5s, opacity 0.5s, transform 0.5s ease-in-out;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: var(--black);
+  margin: 5px;
+}
+
+.burger.active-burger div {
+  background-color: var(--pink);
+}
+
+.burger.active-burger .line1 {
+  transform: translateY(6px) rotate(135deg);
+}
+
+.burger.active-burger .line2 {
+  transform: translateX(-30px) scale(0);
+}
+
+.burger.active-burger .line3 {
+  transform: translateY(-7px) rotate(-135deg);
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
