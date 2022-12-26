@@ -12,7 +12,8 @@ footer {
 
 .sitemap ul {
   padding-top: 5px;
-  padding-left: 10px;
+  /* moves links left a bit */
+  /* padding-left: 10px; */
   overflow: auto;
 }
 
