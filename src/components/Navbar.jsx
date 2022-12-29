@@ -7,9 +7,6 @@ export default function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const toggle = () => {
     setSidebar(!sidebar);
-    if (document.body.style.overflow === 'hidden')
-      document.body.style.overflow = 'visible';
-    else document.body.style.overflow = 'hidden';
   };
   return (
     <>
@@ -18,25 +15,27 @@ export default function Navbar() {
         <a href='/' className='logo-link'>
           <img className='logo' src={space} alt='' />
         </a>
-        <ul className='nav-links'>
-          <li>
-            <a href='/'>Home</a>
-          </li>
-          <li>
-            <a href='/error'>Error</a>
-          </li>
-          <li>
-            <a href='/sources'>Sources</a>
-          </li>
-        </ul>
-        <button
-          className={classNames('burger', { 'active-burger': sidebar })}
-          onClick={toggle}
-        >
-          <div className='line1'></div>
-          <div className='line2'></div>
-          <div className='line3'></div>
-        </button>
+        <div className='nav-container'>
+          <ul className='nav-links'>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/error'>Error</a>
+            </li>
+            <li>
+              <a href='/sources'>Sources</a>
+            </li>
+          </ul>
+          <button
+            className={classNames('burger', { 'active-burger': sidebar })}
+            onClick={toggle}
+          >
+            <div className='line1'></div>
+            <div className='line2'></div>
+            <div className='line3'></div>
+          </button>
+        </div>
       </nav>
       <div className={classNames('sidebar', { active: sidebar })}>
         <ul className='sidebar-links'>

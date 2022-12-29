@@ -4,6 +4,8 @@ footer {
   color: var(--cream);
   padding: 20px;
   justify-content: space-between;
+  /* there was some white space under the footer on ipad air */
+  margin-top: 1px;
 }
 
 .sitemap {
