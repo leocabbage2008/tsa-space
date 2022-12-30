@@ -27,23 +27,6 @@ export default function Footer({ currentYear }) {
           </ul>
         </li>
         <li className='sitemap'>
-          <p>Contact</p>
-          <ul>
-            <li>
-              <a href='/'>Home</a>
-            </li>
-            <li>
-              <a href='/details'>Details About Launch</a>
-            </li>
-            <li>
-              <a href='/sources'>Sources</a>
-            </li>
-            <li>
-              <a href='/docs'>Documentation</a>
-            </li>
-          </ul>
-        </li>
-        <li className='sitemap'>
           <p>Login</p>
           <ul>
             <li>
@@ -53,16 +36,44 @@ export default function Footer({ currentYear }) {
               <a href='/register'>Register</a>
             </li>
             <li>
-              <a href='/book'>Book Flights</a>
+              <a href='/book'>Flights</a>
+            </li>
+          </ul>
+        </li>
+        <li className='sitemap'>
+          <p>Contact</p>
+          <ul>
+            <li>
+              <a target='_blank' href='https://twitter.com' rel='noreferrer'>
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href='https://youtube.com' rel='noreferrer'>
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href='https://instagram.com' rel='noreferrer'>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a target='_blank' href='https://facebook.com' rel='noreferrer'>
+                Facebook
+              </a>
             </li>
           </ul>
         </li>
       </ul>
       <div className='footer-right float-right'>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>{currentYear}</p>
+        <a href='/tos' target='_blank' rel='noreferrer'>
+          Terms of Service
+        </a>
+        <a href='/privacy' target='_blank' rel='noreferrer'>
+          Privacy Policy
+        </a>
+        <p>name©{currentYear}</p>
       </div>
     </footer>
   );
