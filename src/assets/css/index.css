@@ -50,6 +50,7 @@ a:active {
 
 button {
   border-style: none;
+  background: transparent;
 }
 
 hr {

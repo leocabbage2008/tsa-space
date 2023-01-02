@@ -1,0 +1,26 @@
+.scrollToTop {
+  /* opacity: 0; */
+  transform: translate(0, 0);
+  visibility: none;
+  background: var(--blue);
+  transition: opacity 0.5s ease-in-out;
+  display: inline-block;
+}
+.scrollToTop.visible {
+  opacity: 1;
+}
+.scrollToTop * {
+  visibility: none;
+}
+.scrollToTop.visible * {
+  visibility: visible;
+}
+.scrollToTop.visible svg {
+  cursor: pointer;
+}
+.scrollToTop svg {
+  cursor: auto;
+}
+.scrollToTopButton {
+  display: inline-block;
+}
