@@ -34,8 +34,6 @@ p {
 a {
   font-family: 'Staatliches', cursive;
   text-decoration: none;
-  float: left;
-  clear: left;
   transition: all 0.3s ease 0s;
   color: var(--pink);
 }
@@ -63,4 +61,9 @@ hr {
 
 ul {
   list-style-type: none;
+}
+
+span {
+  width: auto;
+  height: auto;
 }

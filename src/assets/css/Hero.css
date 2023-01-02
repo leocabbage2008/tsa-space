@@ -1,0 +1,30 @@
+.hero {
+  grid-column: 2/3;
+  position: relative;
+  height: 50vh;
+}
+.hero h1 {
+  font-size: 120px;
+  color: var(--cream);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.hero img {
+  object-fit: cover;
+  height: 50vh;
+  width: 100%;
+  filter: brightness(50%);
+}
+@media screen and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 80px;
+  }
+}

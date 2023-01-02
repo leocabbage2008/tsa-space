@@ -1,76 +1,76 @@
-import React from 'react';
-import '.././assets/css/Footer.css';
-import space from '../assets/images/space.jpg';
+import React from "react";
+import ".././assets/css/Footer.css";
+import space from "../assets/images/space.jpg";
 
 export default function Footer({ currentYear }) {
   return (
     <footer>
-      <a href='/' className='footer-logo-link'>
-        <img className='footer-logo' src={space} alt='' />
+      <a href="/" className="footer-logo-link">
+        <img className="footer-logo" src={space} alt="" />
       </a>
-      <ul className='sitemap-container'>
-        <li className='sitemap'>
+      <ul className="sitemap-container">
+        <li className="sitemap">
           <p>Information</p>
           <ul>
             <li>
-              <a href='/'>Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href='/details'>Details About Launch</a>
+              <a href="/details">Details About Launch</a>
             </li>
             <li>
-              <a href='/sources'>Sources</a>
+              <a href="/sources">Sources</a>
             </li>
             <li>
-              <a href='/docs'>Documentation</a>
+              <a href="/docs">Documentation</a>
             </li>
           </ul>
         </li>
-        <li className='sitemap'>
+        <li className="sitemap">
           <p>Login</p>
           <ul>
             <li>
-              <a href='/login'>Login</a>
+              <a href="/login">Login</a>
             </li>
             <li>
-              <a href='/register'>Register</a>
+              <a href="/register">Register</a>
             </li>
             <li>
-              <a href='/book'>Flights</a>
+              <a href="/book">Flights</a>
             </li>
           </ul>
         </li>
-        <li className='sitemap'>
+        <li className="sitemap">
           <p>Contact</p>
           <ul>
             <li>
-              <a target='_blank' href='https://twitter.com' rel='noreferrer'>
+              <a target="_blank" href="https://twitter.com" rel="noreferrer">
                 Twitter
               </a>
             </li>
             <li>
-              <a target='_blank' href='https://youtube.com' rel='noreferrer'>
+              <a target="_blank" href="https://youtube.com" rel="noreferrer">
                 Youtube
               </a>
             </li>
             <li>
-              <a target='_blank' href='https://instagram.com' rel='noreferrer'>
+              <a target="_blank" href="https://instagram.com" rel="noreferrer">
                 Instagram
               </a>
             </li>
             <li>
-              <a target='_blank' href='https://facebook.com' rel='noreferrer'>
+              <a target="_blank" href="https://facebook.com" rel="noreferrer">
                 Facebook
               </a>
             </li>
           </ul>
         </li>
       </ul>
-      <div className='footer-right float-right'>
-        <a href='/tos' target='_blank' rel='noreferrer'>
+      <div className="footer-right float-right">
+        <a href="/tos" target="_blank" rel="noreferrer">
           Terms of Service
         </a>
-        <a href='/privacy' target='_blank' rel='noreferrer'>
+        <a href="/privacy" target="_blank" rel="noreferrer">
           Privacy Policy
         </a>
         <p>name©{currentYear}</p>
