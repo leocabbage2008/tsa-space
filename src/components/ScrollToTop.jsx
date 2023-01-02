@@ -19,11 +19,9 @@ export default function ScrollToTop() {
   };
   return (
     <>
-      <div className={classNames('scrollToTop', { visible: visible })}>
-        <button className='scrollToTopButton'>
-          <ChevronsUp onClick={goToTop} />
-        </button>
-      </div>
+      <button className={classNames('scrollToTop', { visible: visible })}>
+        <ChevronsUp onClick={goToTop} />
+      </button>
     </>
   );
 }
