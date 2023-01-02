@@ -14,21 +14,6 @@ export default function ScrollToTop() {
         setVisible(window.scrollY > 100);
       });
   }, []);
-  useEffect(() => {
-    const onScroll = () => {
-      let test = document.getElementsByClassName('scrollToTop')[0];
-      test.style.transform =
-        'translate(calc(100vw - 36px - 10px),' +
-        (window.scrollY -
-          document.body.scrollHeight +
-          window.innerHeight -
-          10) +
-        'px)';
-      console.log(test.style.transform);
-    };
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
   const goToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
