@@ -25,6 +25,16 @@
   --vivid-blue: #4cc9f0ff;
 }
 
+::-webkit-scrollbar,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+  display: none;
+}
+
 h1,
 h2,
 p {
