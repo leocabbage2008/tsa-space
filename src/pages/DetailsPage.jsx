@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
-import Layout from "../components/Layout";
-import ".././assets/css/DetailsPage.css";
-import "../assets/css/index.css";
-import shipFull from "../assets/images/ship_full.png";
-import shipInner from "../assets/images/ship_inner.png";
+import React, { useState, useEffect } from 'react';
+import Layout from '../components/Layout';
+import '.././assets/css/DetailsPage.css';
+import shipFull from '../assets/images/ship_full.png';
+import shipInner from '../assets/images/ship_inner.png';
 
 export default function DetailsPage() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -16,7 +15,7 @@ export default function DetailsPage() {
     { startsVisible: false, start: 1600, fadeIn: 200, end: 2200, fadeOut: 200 }, // ship inner
   ];
 
-  const items = document.getElementsByClassName("scroll");
+  const items = document.getElementsByClassName('scroll');
 
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -54,37 +53,36 @@ export default function DetailsPage() {
     ) - window.innerHeight;
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener('scroll', handleScroll, { passive: true });
 
     handleScroll();
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   });
 
   return (
-    <Layout height={"5000px"}>
-      <p style={{ position: "fixed", color: "gray" }}>
+    <Layout height={'5000px'}>
+      <p style={{ position: 'fixed', color: 'gray' }}>
         for debug: {scrollPosition} {scrollLimit}
       </p>
-      <br />
 
-      <img src={shipFull} alt="whole ship" className="scroll centerX" />
+      <img src={shipFull} alt='whole ship' className='scroll centerX' />
 
-      <div className="scroll" id="centerText">
-        <div className="silluoette"></div>
-        <h1 className="title">Meet the Ride</h1>
+      <div className='scroll' id='centerText'>
+        <div className='silluoette'></div>
+        <h1 className='title'>Meet the Ride</h1>
       </div>
 
-      <div className="scroll">
+      <div className='scroll'>
         <h2>wiejiwjefio</h2>
         <p>
-          gwejf wefj efw efiwej iwjf jweifowefw iejwi jiejf iwjefi jweifjwoei{" "}
+          gwejf wefj efw efiwej iwjf jweifowefw iejwi jiejf iwjefi jweifjwoei{' '}
         </p>
       </div>
 
-      <img src={shipInner} alt="inner ship" className="scroll centerX" />
+      <img src={shipInner} alt='inner ship' className='scroll centerX' />
     </Layout>
   );
 }

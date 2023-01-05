@@ -3,9 +3,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
-  min-height: 8vh;
-  width: calc(100vw - 2rem);
+  height: auto;
+  min-height: 6vh;
   padding: 1rem;
   background: var(--black);
 }
@@ -58,25 +57,23 @@ nav {
 .sidebar {
   z-index: 200;
   background: var(--black);
-  transform: translate(calc(100vw - 1px), calc(-100px - 2rem - 1px));
+  transform: translate(calc(100vw - 1px), 0);
   position: fixed;
   height: 120%;
   opacity: 0;
   width: calc(30vw - 36px - 2rem);
-  /* to avoid repainting only use transform and opacity */
   transition: transform 0.5s, opacity 0.5s linear;
   background-clip: content-box;
-  box-shadow: 4px -55px 0px 2px var(--black);
 }
 
 .sidebar.active {
   opacity: 1;
-  transform: translate(calc(70vw - 1px), calc(-100px - 2rem - 1px));
+  transform: translate(calc(70vw - 1px), 0);
 }
 
 .sidecover {
   position: fixed;
-  transform: translate(calc(100vw), calc(-100px - 2rem - 100px));
+  transform: translate(calc(100vw), 0);
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s linear;
   transition-delay: 50ms;
@@ -89,10 +86,7 @@ nav {
 
 .sidecover.sidecover-active {
   opacity: 1;
-  transform: translate(
-    calc(100vw - 36px - 2rem - 1px),
-    calc(-300px - 2rem - 100px)
-  );
+  transform: translate(calc(100vw - 36px - 2rem - 10px), 0);
 }
 
 @media only screen and (max-width: 767px) {
@@ -111,11 +105,11 @@ nav {
     padding: 20px;
   }
   .sidebar {
-    width: calc(50vw - 36px - 2rem);
-    transform: translate(100vw, calc(-100px - 0.5rem - 1px));
+    width: calc(50vw - 36px - 1rem);
+    transform: translate(100vw, 0);
   }
   .sidebar.active {
-    transform: translate(50vw, calc(-100px - 0.5rem - 1px));
+    transform: translate(50vw, 0);
   }
   .sidebar-links {
     padding: 2rem 1.5rem;
@@ -123,22 +117,23 @@ nav {
 }
 
 .logo {
-  max-height: 100%;
-  max-width: 100%;
-  height: 100px;
+  height: 50px;
   width: 100px;
   object-fit: cover;
   cursor: pointer;
 }
 
 .logo-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
   width: auto;
 }
 
 .tint {
   position: fixed;
-  transform: translate(120vw, calc(2rem - 1px));
+  transform: translate(120vw, 0);
   background: var(--black);
   height: 140vh;
   width: 70vw;
@@ -148,7 +143,7 @@ nav {
 }
 
 .tint.active-tint {
-  transform: translate(0, calc(2rem - 1px));
+  transform: translate(0, 0);
   opacity: 0.7;
 }
 
