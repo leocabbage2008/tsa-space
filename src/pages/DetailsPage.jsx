@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import '.././assets/css/DetailsPage.css';
-import shipFull from '../assets/images/ship_full.png';
-import shipInner from '../assets/images/ship_inner.png';
+import shipFull from '../assets/images/ship_full.webp';
+import shipInner from '../assets/images/ship_inner.webp';
 
 export default function DetailsPage() {
   const [scrollPosition, setScrollPosition] = useState(0);

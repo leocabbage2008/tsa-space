@@ -15,8 +15,13 @@
   background-color: var(--cream);
 }
 
+.content li {
+  margin-bottom: 10px;
+}
+
 .content a {
-  font-size: 20px;
+  font-size: 23px;
+  color: var(--purple);
 }
 
 @media screen and (max-width: 768px) {

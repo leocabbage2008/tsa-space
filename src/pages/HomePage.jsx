@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout';
-import space from '../assets/images/space.jpg';
+import space from '../assets/images/space.webp';
 export default function HomePage() {
   return (
     <Layout>

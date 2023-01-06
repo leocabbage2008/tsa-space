@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import space from '.././assets/images/space.jpg';
+import space from '.././assets/images/space.webp';
 import '.././assets/css/Navbar.css';
 import classNames from 'classnames';
 
@@ -50,8 +50,8 @@ export default function Navbar() {
         className={classNames('sidecover', { 'sidecover-active': sidebar })}
       />
       <nav>
-        <a href='/' className='logo-link'>
-          <img className='logo' src={space} alt='' />
+        <a href='/' className='logo-link' aria-label='Logo'>
+          <img className='logo' src={space} alt='' height='50' width='100' />
         </a>
         <div className='nav-container'>
           <ul className='nav-links'>
@@ -68,6 +68,7 @@ export default function Navbar() {
           <button
             className={classNames('burger', { 'active-burger': sidebar })}
             onClick={toggle}
+            aria-label='Access sidebar'
           >
             <div className='line1'></div>
             <div className='line2'></div>

@@ -15,8 +15,15 @@ footer {
 .sitemap ul {
   padding-top: 5px;
   /* moves links left a bit */
-  /* padding-left: 10px; */
-  overflow: auto;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+
+footer a {
+  font-size: 18px;
 }
 
 .sitemap a:hover {
@@ -34,6 +41,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 1rem;
+  max-height: 100px;
 }
 
 .footer-right > * {
