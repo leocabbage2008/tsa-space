@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tsa-space/static/css/main.19f55e27.css",
-    "main.js": "/tsa-space/static/js/main.9bcad1c3.js",
-    "static/media/space.jpg": "/tsa-space/static/media/space.4275cbe23795998f5ff7.jpg",
-    "static/media/ship_full.png": "/tsa-space/static/media/ship_full.7222475296c501765bab.png",
-    "static/media/ship_inner.png": "/tsa-space/static/media/ship_inner.57e4333c732b9cb7ca53.png",
+    "main.css": "/tsa-space/static/css/main.4c8f42ec.css",
+    "main.js": "/tsa-space/static/js/main.7b1ad46a.js",
+    "static/media/space.webp": "/tsa-space/static/media/space.35ba9979fd0b51600232.webp",
+    "static/media/ship_full.webp": "/tsa-space/static/media/ship_full.2a8ec8ef6224820d2d17.webp",
+    "static/media/ship_inner.webp": "/tsa-space/static/media/ship_inner.dab64b97cd1e16490d27.webp",
     "index.html": "/tsa-space/index.html",
     "static/media/chevrons-up.svg": "/tsa-space/static/media/chevrons-up.fd22412cbe88d46fc905046a58c5d83a.svg",
-    "main.19f55e27.css.map": "/tsa-space/static/css/main.19f55e27.css.map",
-    "main.9bcad1c3.js.map": "/tsa-space/static/js/main.9bcad1c3.js.map"
+    "main.4c8f42ec.css.map": "/tsa-space/static/css/main.4c8f42ec.css.map",
+    "main.7b1ad46a.js.map": "/tsa-space/static/js/main.7b1ad46a.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f55e27.css",
-    "static/js/main.9bcad1c3.js"
+    "static/css/main.4c8f42ec.css",
+    "static/js/main.7b1ad46a.js"
   ]
 }
