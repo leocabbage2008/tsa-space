@@ -1,4 +1,8 @@
 /* for ian */
 #banner {
-    height: 100%;
+  width: 100vw;
+  height: 100%;
+}
+.hero {
+  grid-column: 1 / span 3;
 }
