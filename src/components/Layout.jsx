@@ -11,7 +11,7 @@ export default function Layout({ children, title, height = "1000px" }) {
     return (
         <>
             <Helmet>
-                <title>{title ? title : "NAME HERE"}</title>
+                <title>{title ? title : "MonkeSpaceProgram"}</title>
             </Helmet>
             <Navbar />
             <div id="main">{children}</div>

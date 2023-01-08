@@ -79,7 +79,7 @@ export default function Footer({ currentYear }) {
         <a href='/privacy' target='_blank' rel='noreferrer'>
           Privacy Policy
         </a>
-        <p>name©{currentYear}</p>
+        <p>MonkeSpaceProgram©{currentYear}</p>
       </div>
     </footer>
   );
