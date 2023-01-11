@@ -22,7 +22,7 @@ export default function Footer({ currentYear }) {
               <a href='/'>Home</a>
             </li>
             <li>
-              <a href='/details'>Details About Launch</a>
+              <a href='/details'>Details</a>
             </li>
             <li>
               <a href='/sources'>Sources</a>
@@ -72,14 +72,22 @@ export default function Footer({ currentYear }) {
           </ul>
         </li>
       </ul>
-      <div className='footer-right float-right'>
-        <a href='/tos' target='_blank' rel='noreferrer'>
-          Terms of Service
-        </a>
-        <a href='/privacy' target='_blank' rel='noreferrer'>
-          Privacy Policy
-        </a>
-        <p>MonkeSpaceProgram©{currentYear}</p>
+      <div className='footer-right'>
+        <ul>
+          <li>
+            <a href='/tos' target='_blank' rel='noreferrer'>
+              Terms of Service
+            </a>
+          </li>
+          <li>
+            <a href='/privacy' target='_blank' rel='noreferrer'>
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <p>©{currentYear} MSP</p>
+          </li>
+        </ul>
       </div>
     </footer>
   );

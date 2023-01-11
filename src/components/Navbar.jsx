@@ -6,7 +6,7 @@ import classNames from 'classnames';
 export default function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const toggle = useCallback(() => {
-    document.body.style.overflow = document.getElementById(
+    document.body.style.overflowY = document.getElementById(
       'root'
     ).style.overflowY = sidebar ? 'scroll' : 'hidden';
     setSidebar(!sidebar);

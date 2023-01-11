@@ -67,21 +67,18 @@ export default function DetailsPage() {
       <p style={{ position: 'fixed', color: 'gray' }}>
         for debug: {scrollPosition} {scrollLimit}
       </p>
-
       <img src={shipFull} alt='whole ship' className='scroll centerX' />
-
       <div className='scroll' id='centerText'>
         <div className='silluoette'></div>
         <h1 className='title'>Meet the Ride</h1>
       </div>
-
       <div className='scroll'>
         <h2>wiejiwjefio</h2>
         <p>
           gwejf wefj efw efiwej iwjf jweifowefw iejwi jiejf iwjefi jweifjwoei{' '}
         </p>
       </div>
-
+      Roses are red.
       <img src={shipInner} alt='inner ship' className='scroll centerX' />
     </Layout>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout';
-import titan from '../assets/images/titan.webp';
+import titan from '../assets/images/titan.png';
 // https://commons.wikimedia.org/wiki/File:Polar_Vortex_in_Color.jpg
 export default function HomePage() {
   return (
