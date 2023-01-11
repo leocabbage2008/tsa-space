@@ -6,7 +6,7 @@ import titan from '../assets/images/titan.png';
 export default function HomePage() {
   return (
     <Layout>
-      <Hero text='hmm quite spacey' image={titan} />
+      <Hero image={titan}>fatty acid</Hero>
       <div className='content'>
         <h1>Home Page</h1>
         {/* <ul>
