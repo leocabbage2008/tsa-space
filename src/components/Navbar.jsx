@@ -23,6 +23,7 @@ export default function Navbar() {
   }, [toggle, sidebar]);
   return (
     <>
+      <div className='ghost' />
       <div
         className={classNames('tint', { 'active-tint': sidebar })}
         onClick={toggle}

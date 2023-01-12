@@ -1,8 +1,20 @@
 nav {
-  position: relative;
+  /* position: relative; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: auto;
+  min-height: 6vh;
+  padding: 1rem;
+  background: var(--black);
+}
+
+.ghost {
+  width: 100vw;
   height: auto;
   min-height: 6vh;
   padding: 1rem;
@@ -61,7 +73,7 @@ nav {
 .sidebar {
   z-index: 200;
   background: var(--black);
-  transform: translate(calc(100vw - 1px), 0);
+  transform: translateX(100vw);
   position: fixed;
   height: 120%;
   opacity: 0;
@@ -72,7 +84,7 @@ nav {
 
 .sidebar.active {
   opacity: 1;
-  transform: translate(calc(70vw - 1px), 0);
+  transform: translateX(70vw);
 }
 
 .sidecover {
@@ -152,7 +164,7 @@ nav {
 }
 
 .burger {
-  transition: transform 0.5s, opacity 0.5s ease-in-out;
+  transition: transform 0.3s, opacity 0.1s ease-in-out;
   opacity: 1;
   cursor: pointer;
   width: 36px;

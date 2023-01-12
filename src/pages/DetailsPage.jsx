@@ -63,7 +63,7 @@ export default function DetailsPage() {
   });
 
   return (
-    <Layout height={'5000px'}>
+    <Layout height='5000px' contentHeight='0px'>
       <p style={{ position: 'fixed', color: 'gray' }}>
         for debug: {scrollPosition} {scrollLimit}
       </p>
