@@ -75,10 +75,10 @@ export default function DetailsPage() {
       <div className='scroll'>
         <h2>wiejiwjefio</h2>
         <p>
-          gwejf wefj efw efiwej iwjf jweifowefw iejwi jiejf iwjefi jweifjwoei{' '}
+          Titan{' '}
         </p>
       </div>
-      Roses are red.
+      {/* Roses are red. */}
       <img src={shipInner} alt='inner ship' className='scroll centerX' />
     </Layout>
   );
