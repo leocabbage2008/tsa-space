@@ -1,5 +1,4 @@
 nav {
-  /* position: relative; */
   position: fixed;
   top: 0;
   right: 0;
@@ -7,17 +6,17 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 60px;
   min-height: 6vh;
   padding: 1rem;
   background: var(--black);
+  z-index: 100;
 }
 
 .ghost {
-  width: 100vw;
-  height: auto;
+  display: flex;
+  height: 92px;
   min-height: 6vh;
-  padding: 1rem;
   background: var(--black);
 }
 
@@ -30,6 +29,7 @@ nav {
 }
 
 .nav-links li {
+  cursor: pointer;
   font-size: 2rem;
 }
 
@@ -93,11 +93,10 @@ nav {
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s linear;
   transition-delay: 50ms;
-  z-index: -100;
   width: calc(36px + 2rem + 10px);
   height: 150vh;
   background: var(--black);
-  z-index: 0;
+  z-index: 100;
 }
 
 .sidecover.sidecover-active {
@@ -114,21 +113,29 @@ nav {
   .logo {
     display: none;
   }
+
   .nav-container {
     display: flex;
     justify-content: space-between;
     flex: 1;
     padding: 20px;
   }
+
   .sidebar {
     width: calc(50vw - 36px - 1rem);
     transform: translate(100vw, 0);
   }
+
   .sidebar.active {
     transform: translate(50vw, 0);
   }
+
   .sidebar-links {
     padding: 2rem 1.5rem;
+  }
+
+  .ghost {
+    height: 60px;
   }
 }
 
@@ -154,7 +161,7 @@ nav {
   height: 140vh;
   width: 70vw;
   opacity: 0;
-  z-index: 100;
+  z-index: 200;
   transition: transform 0.7s, opacity 0.5s ease-in-out;
 }
 

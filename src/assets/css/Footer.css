@@ -10,7 +10,6 @@ footer {
 }
 .sitemap ul {
   padding-top: 5px;
-  /* moves links left a bit */
   padding-left: 5px;
   display: flex;
   flex-direction: column;
@@ -29,23 +28,9 @@ footer a {
   row-gap: 1rem;
 }
 
-.footer-right {
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
-  /* grid-gap: 1rem; */
-  /* max-height: 100px; */
-  /* padding-top: 10px; */
-  /* padding-left: 10px; */
-}
-
-.footer-right > * {
-  /* margin: 0 10px; */
-}
-
 .footer-right ul {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   row-gap: 10px;
 }
 

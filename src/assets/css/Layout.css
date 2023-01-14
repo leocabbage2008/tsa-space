@@ -5,9 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto;
-  /* background-color: black; */
   background-image: url('https://www.northropgrumman.com/wp-content/uploads/Carina-Nebula-nasa-james-webb-space-telescope-home.jpg?resize=2048,1185');
-  z-index: -300;
 }
 
 .content {

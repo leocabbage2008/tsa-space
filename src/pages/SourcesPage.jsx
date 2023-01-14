@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Source from '../components/Source';
+import '../assets/css/SourcesPage.css';
 export default function SourcesPage() {
   return (
     <Layout>
@@ -9,9 +10,12 @@ export default function SourcesPage() {
         <div id='sources'>
           <ul>
             <li>
-              Titan Clouds. Titan clouds - space engine. (2017). Retrieved
-              January 11, 2023, from
-              https://forum.spaceengine.org/viewtopic.php?f=3&amp;t=339{' '}
+              <Source title='Title Page Video'>
+                <a href='https://pixabay.com/videos/world-earth-nasa-planet-globe-2/'>
+                  https://pixabay.com/videos/world-earth-nasa-planet-globe-2/
+                </a>
+                <p>(Public Domain)</p>
+              </Source>
             </li>
           </ul>
         </div>

@@ -23,7 +23,6 @@ export default function Navbar() {
   }, [toggle, sidebar]);
   return (
     <>
-      <div className='ghost' />
       <div
         className={classNames('tint', { 'active-tint': sidebar })}
         onClick={toggle}
@@ -50,6 +49,7 @@ export default function Navbar() {
       <div
         className={classNames('sidecover', { 'sidecover-active': sidebar })}
       />
+      <div className='ghost' />
       <nav>
         <a href='/' className='logo-link' aria-label='Logo'>
           <img className='logo' src={space} alt='' height='50' width='100' />
