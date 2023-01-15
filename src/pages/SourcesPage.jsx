@@ -16,6 +16,20 @@ export default function SourcesPage() {
                 </a>
                 <p>(Public Domain)</p>
               </Source>
+              <Source title='Title Page Video'>
+                <a href='https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/'>
+                  https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/
+                </a>
+                <p>(Public Domain)</p>
+              </Source>
+            </li>
+            <li>
+              <Source title='Information'>
+                <a href='https://school.eb.com/levels/high/article/Titan/72639'>
+                https://school.eb.com/levels/high/article/Titan/72639
+                </a>
+                <p>(DataBase)</p>
+              </Source>
             </li>
           </ul>
         </div>
