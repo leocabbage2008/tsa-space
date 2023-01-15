@@ -1,6 +1,6 @@
 import React from 'react';
 import '.././assets/css/Footer.css';
-import space from '../assets/images/space.webp';
+import logo from '../assets/images/logo.png';
 
 export default function Footer({ currentYear }) {
   return (
@@ -8,7 +8,7 @@ export default function Footer({ currentYear }) {
       <a href='/' className='footer-logo-link' aria-label='Logo'>
         <img
           className='footer-logo'
-          src={space}
+          src={logo}
           alt=''
           height='100'
           width='100'
@@ -33,16 +33,16 @@ export default function Footer({ currentYear }) {
           </ul>
         </li>
         <li className='sitemap'>
-          <p>Login</p>
+          <p>Planets</p>
           <ul>
             <li>
-              <a href='/login'>Login</a>
+              <a href='/login'>Titan</a>
             </li>
             <li>
-              <a href='/register'>Register</a>
+              <a href='/register'>Mars</a>
             </li>
             <li>
-              <a href='/book'>Flights</a>
+              <a href='/book'>Neptune</a>
             </li>
           </ul>
         </li>
@@ -50,7 +50,11 @@ export default function Footer({ currentYear }) {
           <p>Contact</p>
           <ul>
             <li>
-              <a target='_blank' href='https://twitter.com/MSPSpaceProgram' rel='noreferrer'>
+              <a
+                target='_blank'
+                href='https://twitter.com/MSPSpaceProgram'
+                rel='noreferrer'
+              >
                 Twitter
               </a>
             </li>
@@ -65,12 +69,16 @@ export default function Footer({ currentYear }) {
       <div className='footer-right'>
         <ul>
           <li>
-            <a target='_blank' href = "" rel='noreferrer'>
+            <a target='_blank' href='' rel='noreferrer'>
               Terms of Service
             </a>
           </li>
           <li>
-            <a href='https://docs.google.com/document/d/1Yia5kfyCgx9FtaNo6Xi09xQ6K_fN3q5_xo5ARrrwrvc/edit?usp=sharing' target='_blank' rel='noreferrer'>
+            <a
+              href='https://docs.google.com/document/d/1Yia5kfyCgx9FtaNo6Xi09xQ6K_fN3q5_xo5ARrrwrvc/edit?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+            >
               Privacy Policy
             </a>
           </li>

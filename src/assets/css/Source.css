@@ -29,6 +29,10 @@
   user-select: none;
 }
 
-.padder {
+.accordion-content .padder {
   padding: 10px;
+}
+
+.accordion-content p {
+  display: inline;
 }

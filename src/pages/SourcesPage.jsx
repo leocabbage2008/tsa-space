@@ -16,7 +16,7 @@ export default function SourcesPage() {
                 </a>
                 <p>(Public Domain)</p>
               </Source>
-              <Source title='Title Page Inages'>
+              <Source title='Title Page Video'>
                 <a href='https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/'>
                   https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/
                 </a>

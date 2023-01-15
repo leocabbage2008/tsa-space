@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import '.././assets/css/DetailsPage.css';
-import scene from '../assets/glb/build1.gltf';
+import scene from '../assets/glb/build.gltf';
 import hdr from '../assets/glb/hdr.hdr';
 import shipFull from '../assets/images/ship_full.webp';
 import shipInner from '../assets/images/ship_inner.webp';
@@ -70,7 +70,7 @@ export default function DetailsPage() {
   });
 
   return (
-    <Layout height='5000px' contentHeight='0px'>
+    <Layout height='5000px'>
       <p style={{ position: 'fixed', color: 'gray' }}>
         for debug: {scrollPosition} {scrollLimit}
       </p>
