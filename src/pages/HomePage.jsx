@@ -42,30 +42,18 @@ export default function HomePage() {
                 </div>
             </div>
             <div className="content">
-                <h1>Attractions</h1>
+            <h1>Locations</h1>
                 <h2>
-                    Titan has a surface thats somewhat similar to Earths giving
-                    possibilities for rivers with methane and sand dunes in the
-                    equatorial regions. Be prepared for a world that seems like
-                    Earth but eerily different! Titan's lower gravity also
-                    allows for some great games of Basketball inside our visitor
-                    center but don't worry, if you are tired of the low gravity
-                    and the muscle atrophy that comes with it we can change the
-                    gravity back to what you are used to.
+                  With over 400 locations throught the Solar system, we have variety of locations and experiences for you to enjoy!
+                  From the scorching hot surface of Mercury and Venus to the frigid moons of the Jovian planets, we provide the nesscary
+                  equipment you need to have a great vacation with us.
                 </h2>
                 <h2>
                     --------------------------------------------------------------------------------------------------------------
                 </h2>
-                <h1>Locations</h1>
-                <h2>
-                    With over 40+ locations on Titan, you can play Hockey on
-                    Titan's ice, Basket ball with its low gravity of .138g or
-                    unwind and relax at our hotel locations with artifical
-                    gravity. If you are in need of a view, you can set off from
-                    our Titan hiking locations and journey to some great
-                    locations to view Titan's Earthlike landscape or journey
-                    above Titan's atmosphere to get a close view of Saturn's
-                    rings.
+                <h1>The Fleet</h1>
+                <h2>Our highly specialized spaceship fleet is more than capable to fly you to the far reaches of our solar system.
+                  With the activities offered by our spaceships, days of travel will go by in an instant and you'll almost want to stay on it!
                 </h2>
             </div>
         </Layout>
