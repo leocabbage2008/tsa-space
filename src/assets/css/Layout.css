@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto;
   background: black;
+  min-height: 80vh;
 }
 
 .content {
