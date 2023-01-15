@@ -13,6 +13,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import DetailsPage from "./pages/DetailsPage";
 import TitanPage from "./pages/TitanPage";
+import MarsPage from "./pages/MarsPage";
 import PurchasePage from "./pages/PurchasePage";
 //front or home page should be for promotion
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route exact path="/details" element={<DetailsPage />} />
             <Route exact path="/about" element={<AboutPage />} />
             <Route exact path="/titan" element={<TitanPage />} />
+            <Route exact path="/mars" element={<MarsPage />} />
             <Route exact path="/purchase" element={<PurchasePage />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
