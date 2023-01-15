@@ -1,11 +1,12 @@
 import React from 'react';
-import Hero from '../components/Hero';
 import Layout from '../components/Layout';
-import titan from '../assets/images/titan.png';
+import video from '../assets/images/world.mp4';
+import '../assets/css/HomePage.css';
 // https://commons.wikimedia.org/wiki/File:Polar_Vortex_in_Color.jpg
 export default function HomePage() {
   return (
     <Layout>
+<<<<<<< HEAD
       <Hero image={titan}>MONKESPACEPROGRAM, Inc.</Hero>
       <div className='content'>
         <h1>An Introduction to our Ship</h1>
@@ -16,6 +17,24 @@ export default function HomePage() {
                   - The Founders of MSP
                 </h2>
         }
+=======
+      {/* <Hero image={titan}>
+        <h1 style={{ marginRight: 10 }}>fatty acid</h1>
+      </Hero> */}
+      <div className='hero-container'>
+        <video autoPlay muted loop src={video}></video>
+        <div className='hero'>
+          <h1>Travel to Titan</h1>
+          <h2>A new adventure</h2>
+          <div className='hero-flex'>
+            <a href='/details'>details</a>
+            <a href='/home'>home</a>
+          </div>
+        </div>
+      </div>
+      <div className='content'>
+        <h1>Home Page</h1>
+>>>>>>> 559317cab2804f3df0f7ffe4b82d830519a9d66d
       </div>
       {'\n'}
     </Layout>

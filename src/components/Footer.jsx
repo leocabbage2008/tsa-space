@@ -50,7 +50,15 @@ export default function Footer({ currentYear }) {
           <p>Contact</p>
           <ul>
             <li>
+<<<<<<< HEAD
               <a target='_blank' href='https://twitter.com/MSPSpaceProgram' rel='noreferrer'>
+=======
+              <a
+                target='_blank'
+                href='https://twitter.com/MSPSpaceProgram'
+                rel='noreferrer'
+              >
+>>>>>>> 559317cab2804f3df0f7ffe4b82d830519a9d66d
                 Twitter
               </a>
             </li>

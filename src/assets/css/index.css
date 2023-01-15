@@ -20,21 +20,13 @@
   --byzantine: #b5179eff;
   --purple: #7209b7ff;
   --trypan-blue: #480ca8ff;
+  --royal-purple: #55286f;
   --trypan-blue-2: #3a0ca3ff;
   --persian-blue: #3f37c9ff;
   --ultra-blue: #4361eeff;
   --blue: #4895efff;
   --vivid-blue: #4cc9f0ff;
-}
-
-::-webkit-scrollbar,
-::-webkit-scrollbar-button,
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-track-piece,
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-corner,
-::-webkit-resizer {
-  display: none;
+  --street-yellow: #ffc300;
 }
 
 h1,
@@ -44,7 +36,7 @@ p {
 }
 
 a {
-  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches';
   text-decoration: none;
   transition: all 0.3s ease 0s;
   color: var(--pink);
