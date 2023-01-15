@@ -96,7 +96,7 @@
 
 .block-content * {
   position: relative;
-  z-index: 100;
+  z-index: 1;
 }
 
 .block-content h1 {

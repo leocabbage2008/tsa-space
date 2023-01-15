@@ -36,13 +36,10 @@ export default function Navbar() {
                         <hr />
                     </li>
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/sources">Sources</a>
                     </li>
                     <li>
                         <hr />
-                    </li>
-                    <li>
-                        <a href="/about">About</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +68,7 @@ export default function Navbar() {
                             <a href="/Details">Details</a>
                         </li>
                         <li>
-                            <a href="/sources">Sources</a>
+                            <a href="/about">About</a>
                         </li>
                     </ul>
                     <button
