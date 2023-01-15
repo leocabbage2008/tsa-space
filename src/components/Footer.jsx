@@ -59,16 +59,6 @@ export default function Footer({ currentYear }) {
               </a>
             </li>
             <li>
-              <a target='_blank' href='https://youtube.com' rel='noreferrer'>
-                Youtube
-              </a>
-            </li>
-            <li>
-              <a target='_blank' href='https://instagram.com' rel='noreferrer'>
-                Instagram
-              </a>
-            </li>
-            <li>
               <a target='_blank' href='https://facebook.com' rel='noreferrer'>
                 Facebook
               </a>
