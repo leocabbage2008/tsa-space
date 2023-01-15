@@ -1,39 +1,99 @@
+.image {
+    width: 80%;
+}
+
+.all {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+.all h2 {
+    font-size: 3em;
+}
+
+.all p {
+    font-size: 2em;
+}
+
+.all .label {
+    font-size: 1em;
+}
+
 .scroll {
-  position: fixed;
+    position: fixed;
+}
+
+.scroll.container {
+    position: absolute;
+    left: 2em;
+    top: 0em;
+    padding: 1em;
+    opacity: 0;
+    transition: opacity .5s;
+    pointer-events: none;
+}
+
+.scroll.container.background {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.scroll.container.appear {
+    opacity: 1;
 }
 
 .centerX {
-  left: 50%;
-  transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .centerY {
-  top: 50%;
-  transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .center {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resize {
+    height: 75%;
+}
+
+.resize2 {
+    height: 60%;
 }
 
 #centerText {
-  text-align: center;
-  width: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 .title {
-  font-size: 5rem;
+    color: white;
+    font-size: 5rem;
+    z-index: 1;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.clickThrough {
+    pointer-events: none;
 }
 
 .subtitle {
-  margin-top: 0.5rem;
-  font-size: 3rem;
+    margin-top: .5rem;
+    font-size: 3rem;
 }
 
 .visible {
-  opacity: 1;
+    opacity: 1;
 }
 
 .silluoette {
@@ -44,7 +104,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: radial-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.7));
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
   pointer-events: none;
 }
 
@@ -58,4 +118,98 @@ model-viewer {
   width: 100vw;
   height: 100vh;
   z-index: -00;
+}
+
+.class {
+  z-index: 100;
+}
+
+model-viewer {
+  /* background-color: blue; */
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -00;
+}
+
+.fixed {
+    position: fixed;
+}
+
+#scrollText {
+    font-size: 1.5em;
+    bottom: 6.5rem;
+}
+
+#arrow {
+    bottom: -20em;
+}
+
+#lengthLine {
+    left: 22vw;
+    top: 75vh;
+    transform: rotate(21deg);
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .5s;
+}
+
+#lengthLine p {
+    opacity: 0;
+    transition: opacity .5s;
+    position: absolute;
+    right: 0;
+}
+
+#lengthLine.expand {
+    width: 50%;
+}
+
+#lengthLine.expand p {
+    opacity: 1;
+}
+
+#widthLine {
+    left: 82vw;
+    bottom: 7vw;
+    transform: rotate(-24deg);
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .5s;
+    white-space: nowrap;
+}
+
+#widthLine p {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+#widthLine.expand {
+    width: 6%;
+}
+
+#widthLine.expand p {
+    opacity: 1;
+}
+
+#section3 {
+    top: auto;
+    bottom: 8em;
+}
+
+#observationText {
+    width: 10em;
+    position: absolute;
+    left: 43.5vw;
+    top: 24vh;
+    transform: rotate3d(-1, 1, 0, .1turn);
+    font-size: .5vw;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+#observationText.appear {
+    opacity: 1;
 }
