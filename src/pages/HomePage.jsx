@@ -37,10 +37,16 @@ export default function HomePage() {
           Our craft, the Galaxy, is a maximum velocity, lightweight, cruiser
           able to carry 6 people comfortably. At our destinations, we create the
           best excursion for your enjoyment and pleasure. We guarantee you a
-          very comfortable transition to space, and an enjoyable trip, at an
+          very comfortable transition to space living, and an enjoyable trip, at an
           affordable price. Welcome to the new horizons of space tourism,
           MonkeSpaceProgram. {'\n'}- The Founders of MSP
         </h2>
+        <h1>Cutting edge Technology</h1>
+        <h2>While the temperature on Titan may go down to −290 °F or −179 °C, don’t worry! 
+          We have protected suits that are 100% safe and make walking on Titan as easy as walking on Earth!
+          In addition, our spacecraft uses state of the art thrusters allowing super fast speeds, 
+          allowing you to travel to titan in just 3 days! (or more depending on your package)
+</h2>
       </div>
       {'\n'}
     </Layout>
