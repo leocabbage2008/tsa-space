@@ -1,31 +1,30 @@
 #main {
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: auto;
-  background-image: url('https://www.northropgrumman.com/wp-content/uploads/Carina-Nebula-nasa-james-webb-space-telescope-home.jpg?resize=2048,1185');
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
 }
 
 .content {
-  padding: 10px 20px;
-  grid-column: 2/3;
-  /* var(--cream) this is a finishing touch */
-  background-color: rgb(245, 245, 245, 0.5);
+    padding: 10px 20px;
+    grid-column: 2/3;
+    /* var(--cream) this is a finishing touch */
+    background-color: rgb(245, 245, 245, 0.5);
 }
 
 .content li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .content a {
-  font-size: 23px;
-  color: var(--purple);
+    font-size: 23px;
+    color: var(--purple);
 }
 
 @media screen and (max-width: 768px) {
-  .content a {
-    font-size: 18px;
-  }
+    .content a {
+        font-size: 18px;
+    }
 }
