@@ -16,8 +16,12 @@ export default function HomePage() {
                     <h1>Out of this World</h1>
                     <h2>Next frontier for travel</h2>
                     <div className="hero-flex">
-                        <a href="/details">details</a>
-                        <a href="/home">home</a>
+                        <a className="link" href="/details">
+                            details
+                        </a>
+                        <a className="link" href="/home">
+                            home
+                        </a>
                     </div>
                 </div>
             </div>
@@ -27,7 +31,10 @@ export default function HomePage() {
                         The Future <br></br>of Travel
                     </h1>
                     <h2 className="description">
-                        Check out our newest rocket<a>here</a>
+                        Check out our rocket{" "}
+                        <a className="link" href="/details">
+                            here
+                        </a>
                     </h2>
                 </div>
                 <div className="top-block-img-container">

@@ -62,7 +62,7 @@
     justify-content: space-between;
 }
 
-.hero-flex a {
+.link {
     color: var(--street-yellow);
 }
 
