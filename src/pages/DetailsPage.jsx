@@ -147,7 +147,7 @@ export default function DetailsPage() {
           {/* <div className='silluoette'></div> */}
         </div>
 
-        <img src={shipFull} alt='whole ship' className='scroll centerX resize' />
+        <img src={shipFull} alt='whole ship' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container background' id='section1'>
           <p>The main body of the ship spans 78 feet long and 20 feet wide, providing plenty of space to enjoy the experience.</p>
         </div>
@@ -158,33 +158,33 @@ export default function DetailsPage() {
           <p className='label'>20 ft</p>
         </div> */}
         
-        <img src={shipInner} alt='inner ship' className='scroll centerX resize' />
+        <img src={shipInner} alt='inner ship' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container' id='section2'>
           <p>The inside of the ship is split into 6 rooms, each with special features.</p>
         </div>
 
-        <img src={cockpit} alt='cockpit' className='scroll centerX resize' />
+        <img src={cockpit} alt='cockpit' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container background'>
           <p>The cockpit holds 3 of our highly trained and experienced pilots, ensuring your safety and comfort.</p>
         </div>
 
-        <img src={computerStation} alt='computer station' className='scroll centerX resize' />
+        <img src={computerStation} alt='computer station' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container background'>
           <p>The computer station uses our patented screen embeded in the windows. Free internet access allows you to surf the web with a backdrop of space. </p>
         </div>
 
-        <img src={movieStation} alt='movie station' className='scroll centerX resize2' />
+        <img src={movieStation} alt='movie station' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container background' id='section3'>
           <p>The movie station allows you to watch any movie on our custom wide screen, and will also be the dashboard providing information during launch off. </p>
         </div>
 
-        <img src={diningArea} alt='dining area' className='scroll centerX resize' />
+        <img src={diningArea} alt='dining area' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container background'>
           <p>The dining area provides a comfortable area to converse and dine.</p>
         </div>
 
         <div id='observationImageContainer'>
-          <img src={observationStation} alt='observation station' className='scroll centerX resize' />
+          <img src={observationStation} alt='observation station' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
           <div className='scroll' id='observationText'>
             <p className='label'>Titan</p>
             <hr className='label'></hr>

@@ -229,7 +229,7 @@ model-viewer {
         width: 10em;
         position: absolute;
         left: 37.5vw;
-        top: 24vh;
+        top: 36vh;
         transform: rotate3d(-1, 1, 0, .1turn);
         font-size: 1vw;
         opacity: 0;
@@ -250,7 +250,7 @@ model-viewer {
         width: 10em;
         position: absolute;
         left: 40vw;
-        top: 24vh;
+        top: 36vh;
         transform: rotate3d(-1, 1, 0, .1turn);
         font-size: .75vw;
         opacity: 0;
