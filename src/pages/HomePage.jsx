@@ -57,6 +57,10 @@ export default function HomePage() {
           Titan's lower gravity also allows for some great games of Basketball inside our visitor center but don't worry,
           if you are tired of the low gravity and the muscle atrophy that comes with it we can change the gravity back to what you are used to.
         </h2>
+        <h1>Great Service</h1>
+        <h2>With over 20 locations on Titan we can guarantee something for everybody. We have hotels for living, facilities for fun activities on Titan and a bunch of stations for surface tourism.
+          In addition we have satelites orbiting around Titan for an out of this world view of Saturn's magnificent rings.
+        </h2>
         <h2>--------------------------------------------------------------------------------------------------------------</h2>
       </div>
       <div></div>
