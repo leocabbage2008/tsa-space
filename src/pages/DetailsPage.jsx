@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import '.././assets/css/DetailsPage.css';
+import scene from '../assets/glb/build1.gltf';
+import hdr from '../assets/glb/hdr.hdr';
 import shipFull from '../assets/images/ship_full.webp';
 import shipInner from '../assets/images/ship_inner.webp';
 
@@ -13,13 +15,18 @@ export default function DetailsPage() {
     { startsVisible: true, start: 0, end: 200, fadeOut: 200 }, // title
     { startsVisible: false, start: 600, fadeIn: 200, end: 1000, fadeOut: 200 }, // text 1
     { startsVisible: false, start: 1600, fadeIn: 200, end: 2200, fadeOut: 200 }, // ship inner
+    { startsVisible: false, start: 2200, fadeIn: 200, end: 2800, fadeOut: 200 }, // text 2
   ];
 
   const items = document.getElementsByClassName('scroll');
 
+  useEffect(() => {
+    setScrollPosition(window.scrollY);
+  }, []);
+
   const handleScroll = () => {
     const position = window.pageYOffset;
-    setScrollPosition(position);
+    // setScrollPosition(position);
 
     for (let i = 0; i < scrollPositions.length; i++) {
       if (i < items.length) {
@@ -74,12 +81,22 @@ export default function DetailsPage() {
       </div>
       <div className='scroll'>
         <h2>wiejiwjefio</h2>
-        <p>
-          Titan{' '}
-        </p>
+        <p>Titan </p>
       </div>
-      {/* Roses are red. */}
       <img src={shipInner} alt='inner ship' className='scroll centerX' />
+      <model-viewer
+        class='scroll'
+        src={scene}
+        exposure='1'
+        skybox-image={hdr}
+        auto-rotate
+        touch-action='none'
+        min-camera-orbit='auto 0deg auto'
+        max-camera-orbit='auto 90deg auto'
+        loading='eager'
+        disable-zoom
+        camera-controls
+      ></model-viewer>
     </Layout>
   );
 }

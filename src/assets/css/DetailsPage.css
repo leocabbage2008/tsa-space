@@ -24,12 +24,12 @@
 }
 
 .title {
-  font-size: 5em;
+  font-size: 5rem;
 }
 
 .subtitle {
-  margin-top: 0.5em;
-  font-size: 3em;
+  margin-top: 0.5rem;
+  font-size: 3rem;
 }
 
 .visible {
@@ -46,4 +46,16 @@
   transform: translate(-50%, -50%);
   background: radial-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.7));
   pointer-events: none;
+}
+
+.class {
+  z-index: 100;
+}
+
+model-viewer {
+  /* background-color: blue; */
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -00;
 }
