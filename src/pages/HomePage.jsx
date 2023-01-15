@@ -23,6 +23,11 @@ export default function HomePage() {
       <div className='content'>
         <h1>Home Page</h1>
       </div>
+      <div></div>
+      <div className = 'msp-intro'>
+        <h1>About MonkeSpaceProgram</h1>
+
+        </div>  
       {'\n'}
     </Layout>
     

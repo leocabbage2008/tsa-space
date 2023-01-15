@@ -75,12 +75,12 @@ export default function Footer({ currentYear }) {
       <div className='footer-right'>
         <ul>
           <li>
-            <a href='/tos' target='_blank' rel='noreferrer'>
+            <a target='_blank' href = "" rel='noreferrer'>
               Terms of Service
             </a>
           </li>
           <li>
-            <a href='/privacy' target='_blank' rel='noreferrer'>
+            <a href='https://docs.google.com/document/d/1Yia5kfyCgx9FtaNo6Xi09xQ6K_fN3q5_xo5ARrrwrvc/edit?usp=sharing' target='_blank' rel='noreferrer'>
               Privacy Policy
             </a>
           </li>
