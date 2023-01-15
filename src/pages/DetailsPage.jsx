@@ -160,12 +160,12 @@ export default function DetailsPage() {
         
         <img src={shipInner} alt='inner ship' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container' id='section2'>
-          <p>The inside of the ship is split into 6 rooms, each with special features.</p>
+          <p>The inside of the ship is split into 6 rooms, each with features built in for the comfort of our passengers.</p>
         </div>
 
         <img src={cockpit} alt='cockpit' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />
         <div className='scroll container background'>
-          <p>The cockpit holds 3 of our highly trained and experienced pilots, ensuring your safety and comfort.</p>
+          <p>The cockpit holds 3 of our highly trained and experienced pilots, ensuring your safety and comfort throughout the journey.</p>
         </div>
 
         <img src={computerStation} alt='computer station' className={`scroll centerX resize ${window.innerWidth < 750 ? 'center' : ''}`} />

@@ -6,7 +6,7 @@ export default function HomePage() {
     return (
         <Layout>
             <div className="content">
-                <p>
+                <h1>
                     Our space tourism company, MSP (short for "Monke Space
                     Programs"), is dedicated to providing our customers with the
                     ultimate space travel experience. We offer a wide range of
@@ -26,7 +26,7 @@ export default function HomePage() {
                     customers with a truly unique and unparalleled experience.
                     So join us and embark on a journey of a lifetime, as you
                     explore the mysteries of space with MSP.
-                </p>
+                </h1>
             </div>
         </Layout>
     );
