@@ -33,13 +33,13 @@ export default function HomePage() {
         <h1>Home Page</h1>
         <h1>An Introduction to our Company</h1>
         <h2>
-        Welcome to [Company Name], the premier space tourism company dedicated to providing the ultimate outer space travel 
-        experience for individuals looking for an adventure of a lifetime. We are a team of experts in the field of space 
+        Welcome to Milky Way Space Program, the premier space tourism company dedicated to providing the ultimate outer space travel 
+        experience for individuals looking for the adventure of a lifetime. We are a team of experts in the field of space 
         technology, engineering and operation, and we work closely with government space agencies and private spaceflight 
         companies to offer our customers a variety of space travel options. Whether you want to take a suborbital flight to
-         experience the thrill of weightlessness or take an orbital flight to see our planet from above, we have a program 
-         that will suit your needs. We pride ourselves in providing a safe and enjoyable journey, and our team is dedicated 
-         to making sure you have the experience of a lifetime. Join us as we take you to the final frontier of space travel.
+         experience the thrill of weightlessness or take a trip to Titan, we have a program that will suit your needs. We pride 
+         ourselves in providing a safe and enjoyable journey, and our team is dedicated to making sure you have the experience of a
+          lifetime. Join us as we take you to the final frontier of space travel.
         </h2>
         <h2>--------------------------------------------------------------------------------------------------------------</h2>
         <h1>Cutting Edge Technology</h1>
