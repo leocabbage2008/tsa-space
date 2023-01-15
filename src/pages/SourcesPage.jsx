@@ -28,7 +28,11 @@ export default function SourcesPage() {
                 <a href='https://school.eb.com/levels/high/article/Titan/72639'>
                 https://school.eb.com/levels/high/article/Titan/72639
                 </a>
-                <p>(DataBase)</p>
+                <p>(Database Article)<br/></p>
+                <a href='https://en.wikipedia.org/wiki/Titan_(moon)'>
+                https://en.wikipedia.org/wiki/Titan_(moon)
+                </a>
+                <p>(Online Article)</p>
               </Source>
             </li>
           </ul>

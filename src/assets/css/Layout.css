@@ -11,7 +11,7 @@
 
 .content {
   padding: 10px 20px;
-  grid-column: 2/3;
+  grid-column: 1/2;
   color: white;
   /* var(--cream) this is a finishing touch */
   /* background-color: rgb(245, 245, 245, 0.5); */
