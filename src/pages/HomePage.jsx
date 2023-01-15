@@ -69,20 +69,21 @@ export default function HomePage() {
                 </h2>
 
                 <h1>Attractions</h1>
-                <h2>
-                    Titan has a surface thats somewhat similar to Earths giving
-                    possibilities for rivers with methane and sand dunes in the
-                    equatorial regions. Be prepared for a world that seems like
-                    Earth but eerily different! Titan's lower gravity also
-                    allows for some great games of Basketball inside our visitor
-                    center but don't worry, if you are tired of the low gravity
-                    and the muscle atrophy that comes with it we can change the
-                    gravity back to what you are used to.
-                </h2>
-                <h2>
-                    --------------------------------------------------------------------------------------------------------------
-                </h2>
-            </div>
-        </Layout>
-    );
+                <h2>Titan has a surface thats somewhat similar to Earths 
+                giving possibilities for rivers with methane and sand dunes in the equatorial regions.
+                Be prepared for a world that seems like Earth but eerily different!
+                Titan's lower gravity also allows for some great games of Basketball inside our visitor center but don't worry,
+                if you are tired of the low gravity and the muscle atrophy that comes with it we can change the gravity back to what you are used to.
+        </h2>
+        <h2>--------------------------------------------------------------------------------------------------------------</h2>
+                <h1>Locations</h1>
+                <h2>With over 40+ locations on Titan, you can play Hockey on Titan's ice, Basket ball with its low gravity of .138g or unwind and relax
+                  at our hotel locations with artifical gravity. If you are in need of a view, you can set off from our Titan hiking locations and journey to
+                  some great locations to view Titan's Earthlike landscape or journey above Titan's atmosphere to get a close view of Saturn's rings.
+        </h2>
+      </div>
+      <div></div>
+      {'\n'}
+    </Layout>
+  );
 }

@@ -7,7 +7,7 @@ export default function HomePage() {
         <Layout>
             <div className="content">
                 <p>
-                    Our space tourism company, MSP (short for "Milky Way Space
+                    Our space tourism company, MSP (short for "Monke Space
                     Programs"), is dedicated to providing our customers with the
                     ultimate space travel experience. We offer a wide range of
                     space travel options, from suborbital joyrides to extended
