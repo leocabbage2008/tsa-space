@@ -3,18 +3,14 @@ import Layout from '../components/Layout';
 import video from '../assets/images/world.mp4';
 import launch from '../assets/images/launch.jpg';
 import '../assets/css/HomePage.css';
-// https://commons.wikimedia.org/wiki/File:Polar_Vortex_in_Color.jpg
 export default function HomePage() {
   return (
     <Layout>
-      {/* <Hero image={titan}>
-        <h1 style={{ marginRight: 10 }}>fatty acid</h1>
-      </Hero> */}
       <div className='hero-container'>
         <video autoPlay muted loop src={video}></video>
         <div className='hero'>
-          <h1>Travel to Titan</h1>
-          <h2>A new frontier in travel</h2>
+          <h1>Out of this World</h1>
+          <h2>Next frontier for travel</h2>
           <div className='hero-flex'>
             <a href='/details'>details</a>
             <a href='/home'>home</a>
