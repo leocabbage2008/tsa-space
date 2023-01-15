@@ -1,21 +1,25 @@
-import React, { useState, useEffect, useCallback } from "react";
-import space from ".././assets/images/space.webp";
-import ".././assets/css/Navbar.css";
-import classNames from "classnames";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useState, useEffect, useCallback } from 'react';
+import { ReactComponent as ChevronDown } from '../assets/svg/chevron-down.svg';
+import space from '.././assets/images/space.webp';
+import '.././assets/css/Navbar.css';
+import classNames from 'classnames';
 
 export default function Navbar() {
-    const [sidebar, setSidebar] = useState(false);
-    const toggle = useCallback(() => {
-        document.body.style.overflowY = document.getElementById(
-            "root"
-        ).style.overflowY = sidebar ? "scroll" : "hidden";
-        setSidebar(!sidebar);
-    }, [sidebar]);
-    useEffect(() => {
-        const keyPress = (e) => {
-            if (e.key === "Escape" && sidebar) toggle();
-        };
-        document.addEventListener("keydown", keyPress, false);
+  const [dropdown, setDropdown] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
+  const toggleDropdown = () => setDropdown(!dropdown);
+  const toggle = useCallback(() => {
+    document.body.style.overflowY = document.getElementById(
+      'root'
+    ).style.overflowY = sidebar ? 'scroll' : 'hidden';
+    setSidebar(!sidebar);
+  }, [sidebar]);
+  useEffect(() => {
+    const keyPress = (e) => {
+      if (e.key === 'Escape' && sidebar) toggle();
+    };
+    document.addEventListener('keydown', keyPress, false);
 
         return () => {
             document.removeEventListener("keydown", keyPress, false);
@@ -83,7 +87,22 @@ export default function Navbar() {
                         <div className="line3"></div>
                     </button>
                 </div>
-            </nav>
-        </>
-    );
+              </div>
+            </li>
+          </ul>
+          <button
+            className={classNames('burger', {
+              'active-burger': sidebar,
+            })}
+            onClick={toggle}
+            aria-label='Access sidebar'
+          >
+            <div className='line1'></div>
+            <div className='line2'></div>
+            <div className='line3'></div>
+          </button>
+        </div>
+      </nav>
+    </>
+  );
 }
