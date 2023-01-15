@@ -12,6 +12,7 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import DetailsPage from "./pages/DetailsPage";
+import TitanPage from "./pages/TitanPage";
 //front or home page should be for promotion
 
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
             <Route exact path="/ref" element={<ReferencePage />} />
             <Route exact path="/details" element={<DetailsPage />} />
             <Route exact path="/about" element={<AboutPage />} />
+            <Route exact path="/titan" element={<TitanPage />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
     </Router>
