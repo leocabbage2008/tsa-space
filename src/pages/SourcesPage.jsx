@@ -17,6 +17,14 @@ export default function SourcesPage() {
                 <p>(Public Domain)</p>
               </Source>
             </li>
+            <li>
+              <Source title='Information'>
+                <a href='https://school.eb.com/levels/high/article/Titan/72639'>
+                https://school.eb.com/levels/high/article/Titan/72639
+                </a>
+                <p>(DataBase)</p>
+              </Source>
+            </li>
           </ul>
         </div>
       </div>

@@ -46,7 +46,14 @@ export default function HomePage() {
           We have protected suits that are 100% safe and make walking on Titan as easy as walking on Earth!
           In addition, our spacecraft uses state of the art thrusters allowing super fast speeds, 
           allowing you to travel to titan in just 3 days! (or more depending on your package)
-</h2>
+        </h2>
+        <h1>Attractions</h1>
+        <h2>Titan has a surface thats somewhat similar to Earths 
+          giving possibilities for rivers with methane and sand dunes in the equatorial regions.
+          Be prepared for a world that seems like Earth but eerily different!
+          Titan's lower gravity also allows for some great games of Basketball inside our visitor center but don't worry,
+          if you are tired of the low gravity and the muscle atrophy that comes with it we can change the gravity back to what you are used to.
+        </h2>
       </div>
       {'\n'}
     </Layout>
