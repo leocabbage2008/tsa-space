@@ -110,6 +110,35 @@
   left: 100px; */
 }
 
+.bottom-block {
+  position: relative;
+  padding-top: 35px;
+  color: #f4f3ee;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.bottom-block h1 {
+  display: block;
+  font-size: 4rem;
+}
+
+.bottom-block button {
+  margin: 2rem auto 4rem auto;
+  font-size: 2rem;
+  display: block;
+  color: white;
+  padding: 1rem;
+  background: var(--blue);
+  border-radius: 1rem;
+}
+
+.bottom-block button:hover {
+  cursor: pointer;
+  background: white;
+  color: var(--blue);
+}
+
 .description {
   font-size: 2.5rem;
 }

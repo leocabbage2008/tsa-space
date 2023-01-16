@@ -5,10 +5,8 @@ export default function HomePage() {
     return (
         <Layout>
             <div className="content">
-                <h1>The Red Planet</h1>
-                <h2>Mars has many great places for you to visit. You could take a hike on one of the Solar System's largest volcanoes, Olympus Mons for starters.
-                    Or you can travel to the poles and look at the frozen water that could've hade life billions of years ago in a different age.
-                    If you aren't a bumpy terrain kind of person we offer trips on vehicles that go through some of Mars's 'Seas'.
+                <h1>The God of Water and Seas</h1>
+                <h2>Neptune is one of the most interesting planets in our solar system, as it 
                 </h2>
                 <h1>
                     --------------------------------------------------------------------------------------

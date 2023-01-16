@@ -42,21 +42,11 @@ export default function HomePage() {
                 </div>
                 
             </div>
-            <div className="content">
-                <h1>Locations</h1>
-                <h2>
-                    With over 400 locations throught the Solar system, we have variety of locations and experiences for you to enjoy!
-                    From the scorching hot surface of Mercury and Venus to the frigid moons of the Jovian planets, we provide the nesscary
-                    equipment you need to have a great vacation with us.
-                </h2>
-
-                <hr></hr>
-                
-                <h1>The Fleet</h1>
-                <h2>
-                    Our highly specialized spaceship fleet is more than capable to fly you to the far reaches of our solar system.
-                    With the activities offered by our spaceships, days of travel will go by in an instant and you'll almost want to stay on it!
-                </h2>
+            <div className="bottom-block">
+                <h1>Save your spot</h1> 
+                <button onClick={() => {window.location = "/purchase"}}>
+                    <p>Purchase a Ticket</p>
+                </button>
             </div>
         </Layout>
     );

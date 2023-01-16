@@ -23,8 +23,8 @@
 }
 
 .content a {
-  font-size: 23px;
-  color: var(--purple);
+  font-size: 20px;
+  color: #fdc300;
 }
 
 @media screen and (max-width: 768px) {

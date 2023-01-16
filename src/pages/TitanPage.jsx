@@ -17,7 +17,6 @@ export default function HomePage() {
                 <h2>
                     --------------------------------------------------------------------------------------------------------------
                 </h2>
-
                 <h1>Attractions</h1>
                 <h2>Titan has a surface thats somewhat similar to Earths 
                 giving possibilities for rivers with methane and sand dunes in the equatorial regions.
@@ -27,7 +26,7 @@ export default function HomePage() {
                 </h2>
                 <h2>--------------------------------------------------------------------------------------------------------------</h2>
                 <h1>Locations</h1>
-                <h2>With over 40+ locations on Titan, you can play Hockey on Titan's ice, Basket ball with its low gravity of .138g or unwind and relax
+                <h2>With over 40+ locations on Titan, you can play hockey on Titan's ice, basketball with its low gravity of .138g or unwind and relax
                   at our hotel locations with artifical gravity. If you are in need of a view, you can set off from our Titan hiking locations and journey to
                   some great locations to view Titan's Earthlike landscape or journey above Titan's atmosphere to get a close view of Saturn's rings.
         </h2>

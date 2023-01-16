@@ -28,8 +28,8 @@
 
 .scroll.container {
   position: absolute;
-  left: 2em;
-  top: 0em;
+  left: 4vw;
+  top: 25vh;
   padding: 1em;
   opacity: 0;
   transition: opacity 0.5s;
@@ -272,7 +272,15 @@ model-viewer {
 }
 
 .shipFull {
-  right: 4px;
-  width: 50vw;
-  height: auto;
+  right: 180px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
 }
