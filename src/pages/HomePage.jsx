@@ -42,8 +42,10 @@ export default function HomePage() {
         <div className='left-block-background' />
         <div className='description block-content'>
           <h1>
-            Experience the future, purchase{' '}
-              now!
+            Learn about the team{' '}
+            <a className='link' href='/about'>
+              here!
+            </a>
           </h1>
         </div>
         <div className='block-img-container'>

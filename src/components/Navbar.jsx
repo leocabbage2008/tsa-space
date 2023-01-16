@@ -77,9 +77,6 @@ export default function Navbar() {
               <a href='/Details'>Details</a>
             </li>
             <li>
-              <a href='/purchase'>Purchase</a>
-            </li>
-            <li>
               <div className='dropdown'>
                 <a
                   className='dropdown-btn'
