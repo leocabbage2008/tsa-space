@@ -11,7 +11,7 @@ export default function PriceTable({ data }) {
             <div className={`price-col col${i + 1}`}>
               <p>{item.title}</p>
               <h3>
-                {item.price} <span>/day</span>
+                {item.price} <span>/person/day</span>
               </h3>
               <ul>
                 {item.list.map((item, i) => {

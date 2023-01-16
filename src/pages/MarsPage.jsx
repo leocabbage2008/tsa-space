@@ -1,23 +1,23 @@
 import React from "react";
 import Layout from "../components/Layout";
 import "../assets/css/Titan.css";
-import PriceTable from "../components/PriceTable.jsx";
+import PriceTable from "../components/priceTable.jsx";
 export default function HomePage() {
     const data = [
         {
-            title: "basic",
-            price: "$50",
-            list: ["Stay at all of our locations on Mars","Includes access to all of our Mars activities","Up to 6 people per ship"],
+            title: "Mars Hotel Access",
+            price: "$350k",
+            list: ["Stay at all of our locations on Mars","Does not include access to all of our Mars activities, pay for each activity on Mars"],
         },
         {
-            title: "standard",
-            price: "$100",
-            list: ["1 day", "1 person", "1 vehicle"],
+            title: "Mars Full",
+            price: "$500k",
+            list: ["Stay at all of our locations on Mars","Includes access to all of our Mars activities"],
         },
         {
-            title: "premium",
-            price: "$150",
-            list: ["1 day", "1 person", "1 vehicle", "1 hotel"],
+            title: "6+ party bundle",
+            price: "$450k",
+            list: ["Same as before but with a discount for parties over 6!"],
         },
     ];
     return (

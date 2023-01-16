@@ -1,23 +1,23 @@
 import React from "react";
 import Layout from "../components/Layout";
 import "../assets/css/Titan.css";
-import PriceTable from "../components/PriceTable.jsx";
+import PriceTable from "../components/priceTable.jsx";
 export default function HomePage() {
     const data = [
         {
-            title: "basic",
-            price: "$50",
-            list: ["1 day", "1 person"],
+            title: "Titan Hotel Access",
+            price: "$1.1M",
+            list: ["Stay at all of our locations on Titan","Does not include access to all of our Titan activities, pay for each activity on Titan"],
         },
         {
-            title: "standard",
-            price: "$100",
-            list: ["1 day", "1 person", "1 vehicle"],
+            title: "Titan Full",
+            price: "$1.5Mk",
+            list: ["Stay at all of our locations on Titan","Includes access to all of our Titan activities"],
         },
         {
-            title: "premium",
-            price: "$150",
-            list: ["1 day", "1 person", "1 vehicle", "1 hotel"],
+            title: "6+ party bundle",
+            price: "$1.35M",
+            list: ["Same as before but with a discount for parties over 6!"],
         },
     ];
     return (
