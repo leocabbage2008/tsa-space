@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: calc(100vw / 6) calc(200vw / 3) calc(100vw / 6);
   grid-template-rows: auto;
   background: black;
   min-height: 80vh;
@@ -11,7 +11,7 @@
 
 .content {
   padding: 10px 20px;
-  grid-column: 1/2;
+  grid-column: 2/3;
   color: white;
   /* var(--cream) this is a finishing touch */
   /* background-color: rgb(245, 245, 245, 0.5); */
