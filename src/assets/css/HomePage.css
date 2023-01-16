@@ -68,6 +68,11 @@
 
 .link {
   color: var(--street-yellow);
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.link:hover {
+  color: var(--pink);
 }
 
 .top-block {
