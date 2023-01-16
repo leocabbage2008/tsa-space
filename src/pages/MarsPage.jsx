@@ -39,9 +39,7 @@ export default function HomePage() {
           you aren't a bumpy terrain kind of person we offer trips on vehicles
           that go through some of Mars' 'Seas'.
         </h2>
-        <h1>
-          --------------------------------------------------------------------------------------
-        </h1>
+        <hr></hr>
         <h1>Our Facilities</h1>
         <h2>
           With 26 locations on Mars, we provide places safe from Mars dust
@@ -49,9 +47,7 @@ export default function HomePage() {
           Also, we provide seasonal events on Mars as it's Seasons also have a
           cycle just like Earth.
         </h2>
-        <h1>
-          --------------------------------------------------------------------------------------
-        </h1>
+        <hr></hr>
         <h1>Close to Home</h1>
         <h2>
           Mars has many features that make it similar to Earth. It's day night
