@@ -6,7 +6,7 @@ export default function HomePage() {
         <Layout>
             <div className="content">
                 <h1>The God of Water and Seas</h1>
-                <h2>Neptune is one of the most interesting planets in our solar system, as it 
+                <h2>Neptune is one of the most interesting planets in our solar system, as it has water and it's spin is 
                 </h2>
                 <h1>
                     --------------------------------------------------------------------------------------
