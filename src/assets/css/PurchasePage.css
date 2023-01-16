@@ -72,10 +72,6 @@ label {
   background-color: var(--steel-blue);
 }
 
-a {
-  color: #2196f3;
-}
-
 hr {
   border: 1px solid lightgrey;
 }
