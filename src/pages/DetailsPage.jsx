@@ -180,7 +180,7 @@ export default function DetailsPage() {
 
         <img src={diningArea} alt='dining area' className='scroll centerX resize' />
         <div className='scroll container background'>
-          <p>The dining area provides a comfortable area to converse and dine.</p>
+          <p>The dining area provides a comfortable area to converse and dine. As for food, we have an onsite kitchen and grow vegetables there.</p>
         </div>
 
         <div id='observationImageContainer'>
