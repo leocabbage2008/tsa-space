@@ -14,6 +14,9 @@ import observationStation from '../assets/images/observation_station.webp';
 import { ReactComponent as DownArrow } from '../assets/svg/down_arrow.svg';
 
 export default function DetailsPage() {
+  useEffect(() => {
+    alert('Please wait 10 seconds. The model is loading.');
+  }, []);
   const [scrollPosition, setScrollPosition] = useState(0);
   const scrollPositions = [
     // startsVisible: if starts opacity 1, start: position to start fade in, fadeIn: scroll length to go from opacity 0 to 1
@@ -260,9 +263,9 @@ export default function DetailsPage() {
 
         <div className='scroll center'>
           <h2>Ready to fly with us?</h2>
-          <a href='/purchase'>
-              Book Now
-            </a>
+          <a className='purchase' href='/purchase'>
+            Book Now
+          </a>
         </div>
       </div>
     </Layout>

@@ -77,6 +77,7 @@
   color: white;
   font-size: 5rem;
   z-index: 1;
+  top: 30vh;
 }
 
 .fixed {
@@ -193,7 +194,7 @@ model-viewer {
 #widthLine.expand p {
   opacity: 1;
 }
-#section2{
+#section2 {
   background: black;
 }
 #section3 {
@@ -214,4 +215,9 @@ model-viewer {
 
 #observationText.appear {
   opacity: 1;
+}
+
+.purchase {
+  font-size: 3rem;
+  text-decoration-line: underline;
 }
