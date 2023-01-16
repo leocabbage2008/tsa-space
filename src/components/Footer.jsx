@@ -59,7 +59,7 @@ export default function Footer({ currentYear }) {
               </a>
             </li>
             <li>
-              <a target='_blank' href='https://facebook.com' rel='noreferrer'>
+              <a target='_blank' href='https://www.facebook.com/profile.php?id=100089635383990' rel='noreferrer'>
                 Facebook
               </a>
             </li>
@@ -70,7 +70,7 @@ export default function Footer({ currentYear }) {
         <ul>
           <li>
             <a target='_blank' href='' rel='noreferrer'>
-              Terms of Service
+              Terms of Use
             </a>
           </li>
           <li>
