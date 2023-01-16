@@ -7,7 +7,7 @@ export default function HomePage() {
         {
             title: "basic",
             price: "$50",
-            list: ["1 day", "1 person"],
+            list: ["Stay at all of our locations on Mars","Includes access to all of our Mars activities","Up to 6 people per ship"],
         },
         {
             title: "standard",

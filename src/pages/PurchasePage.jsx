@@ -11,7 +11,7 @@ export default function (PurchasePage) {
                     <div class="price-col col1">
                         <p>Mars</p>
                         <h3>
-                            $250,000/day
+                            $250k/day
                         </h3>
                         <ul>
                             <li>Stay at all of our locations on Mars</li>
@@ -24,7 +24,7 @@ export default function (PurchasePage) {
                     <div class="price-col col2">
                         <p>Titan</p>
                         <h3>
-                            $1,000,000/day
+                            $1M/day
                         </h3>
                         <ul>
                             <li>Stay at all of our locations on Titan</li>
@@ -37,7 +37,7 @@ export default function (PurchasePage) {
                     <div class="price-col col3">
                         <p>Premium</p>
                         <h3>
-                            $2,500,000/day
+                            $2.5M/day
                         </h3>
                         <ul>
                             <li>Stay at all of our locations on Neptune</li>
