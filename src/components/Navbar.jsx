@@ -48,9 +48,6 @@ export default function Navbar() {
       <div className={classNames('sidebar', { active: sidebar })}>
         <ul className='sidebar-links'>
           <li>
-            <hr />
-          </li>
-          <li>
             <a href='/about'>About</a>
           </li>
           <li>
