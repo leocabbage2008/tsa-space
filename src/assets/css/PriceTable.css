@@ -4,10 +4,19 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 .plan-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 767px) {
+  .plan-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
 .plan-container h2 {
   color: white;
   font-size: 32px;
