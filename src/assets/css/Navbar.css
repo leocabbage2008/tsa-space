@@ -13,12 +13,6 @@ nav {
   z-index: 100;
 }
 
-@media only screen and (max-width: 767px) {
-  nav {
-    height: 60px;
-  }
-}
-
 .ghost {
   display: flex;
   height: 92px;
