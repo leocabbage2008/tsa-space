@@ -27,7 +27,7 @@ export default function (PurchasePage) {
                             $1,000,000/day
                         </h3>
                         <ul>
-                            <li>Stay at all of our locations on Titan</li>
+                            <li>Stay at all of our locations on and around Titan</li>
                             <li>Includes access to all of our Titan activities</li>
                             <li>Up to 6 people per ship</li>
                             <li>Travel costs may increase depending on starting location in the Solar System</li>
@@ -35,12 +35,12 @@ export default function (PurchasePage) {
                         <button>Purchase</button>
                     </div>
                     <div class="price-col col3">
-                        <p>Premium</p>
+                        <p>Neptune & it's moons</p>
                         <h3>
                             $2,500,000/day
                         </h3>
                         <ul>
-                            <li>Stay at all of our locations on Neptune</li>
+                            <li>Stay at all of our locations on Neptune and it's moons.</li>
                             <li>Includes access to all of our Neptune activities</li>
                             <li>Up to 6 people per ship</li>
                             <li>Travel costs may increase depending on starting location in the Solar System</li>
