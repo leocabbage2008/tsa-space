@@ -48,13 +48,10 @@ export default function Navbar() {
       <div className={classNames('sidebar', { active: sidebar })}>
         <ul className='sidebar-links'>
           <li>
-            <a href='/about'>About</a>
-          </li>
-          <li>
             <hr />
           </li>
           <li>
-            <a href='/purchase'>Purchase</a>
+            <a href='/about'>About</a>
           </li>
           <li>
             <hr />
@@ -81,6 +78,9 @@ export default function Navbar() {
             </li>
             <li>
               <a href='/Details'>Details</a>
+            </li>
+            <li>
+              <a href='/purchase'>Purchase</a>
             </li>
             <li>
               <div className='dropdown'>
