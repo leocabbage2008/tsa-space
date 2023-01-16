@@ -8,25 +8,26 @@ export default function HomePage() {
             <h1>Cutting Edge Technology</h1>
                 <h2>
                     While the temperature on Titan may go down to −290 °F or
-                    −179 °C, don’t worry! We have protected suits that are 100%
-                    safe and make walking on Titan as easy as walking on Earth!
-                    In addition, our spacecraft uses state of the art thrusters
-                    allowing super fast speeds, allowing you to travel to titan
-                    in just 3 days! (or more depending on your package)
+                    −179 °C, don’t worry! We have highly-engineered protection suits 
+                    that neutralizes outside conditions and makes walking on Titan as 
+                    easy as walking on Earth.
+                    In addition, our spacecraft uses state-of-the-art thrusters
+                    for a max speed of 1/20th the speed of light, allowing you 
+                    to travel to titan in just 3 days! 
                 </h2>
                 <hr></hr>
                 <h1>Attractions</h1>
-                <h2>Titan has a surface thats somewhat similar to Earths 
-                giving possibilities for rivers with methane and sand dunes in the equatorial regions.
-                Be prepared for a world that seems like Earth but eerily different!
-                Titan's lower gravity also allows for some great games of Basketball inside our visitor center but don't worry,
-                if you are tired of the low gravity and the muscle atrophy that comes with it we can change the gravity back to what you are used to.
+                <h2>Titan has a surface thats somewhat similar to Earth's, 
+                offering possibilities for rivers with methane and sand dunes in the equatorial regions.
+                Be prepared for a world that seems eerily similar to Earth!
+                Titan's lower gravity also allows for some great games of basketball inside our visitor center.
+                If you aren't a fan of the low gravity, our facilities are able to simulate Earth's as well.
                 </h2>
                 <hr></hr>
                 <h1>Locations</h1>
-                <h2>With 9 locations on Titan, you can play hockey on Titan's ice, basketball with its low gravity of .138g or unwind and relax
-                  at our hotel locations with artifical gravity. If you are in need of a view, you can set off from our Titan hiking locations and journey to
-                  some great locations to view Titan's Earthlike landscape or journey above Titan's atmosphere to get a close view of Saturn's rings.
+                <h2>With 9 locations on Titan, you can play hockey on Titan's ice, basketball with its low gravity of .138g, or unwind and relax
+                  at our hotel locations with artifical gravity. If you want to see some picturesque landscapes, you can set off from our Titan hiking locations and journey to
+                  some great locations, including a journey above Titan's atmosphere to get a close view of Saturn's rings.
         </h2>
             </div>
         </Layout>

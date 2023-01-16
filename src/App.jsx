@@ -15,6 +15,7 @@ import DetailsPage from "./pages/DetailsPage";
 import TitanPage from "./pages/TitanPage";
 import MarsPage from "./pages/MarsPage";
 import PurchasePage from "./pages/PurchasePage";
+import NeptunePage from "./pages/NeptunePage";
 //front or home page should be for promotion
 
 const App = () => (
@@ -28,6 +29,7 @@ const App = () => (
             <Route exact path="/about" element={<AboutPage />} />
             <Route exact path="/titan" element={<TitanPage />} />
             <Route exact path="/mars" element={<MarsPage />} />
+            <Route exact path="/neptune" element={<NeptunePage />} />
             <Route exact path="/purchase" element={<PurchasePage />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
