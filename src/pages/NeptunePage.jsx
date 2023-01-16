@@ -6,22 +6,16 @@ export default function HomePage() {
         <Layout>
             <div className="content">
                 <h1>The God of Water and Seas</h1>
-                <h2>Neptune is one of the most interesting planets in our solar system, as it 
+                <h2>Neptune his one of the best places to visit in our solar system. Based on our path, you could see it's small rings, which are pretty cool and 
+                    rarely seen. You could also book a tour of Neptune's great dark spot, by shuttle, or visit one of it's moons!
                 </h2>
                 <h1>
                     --------------------------------------------------------------------------------------
                 </h1>
                 <h1>Our Facilities</h1>
-                <h2>With over 100 locations on Mars, we provide places safe from Mar's dust storms for you to relax, sleep, and recover from Mars's low gravity.
-                    Also, we provide seasonal events on Mars as it's Seasons also have a cycle just like Earth. 
-                </h2>
-                <h1>
-                    --------------------------------------------------------------------------------------
-                </h1>
-                <h1>Close to Home</h1>
-                <h2>Mars has many features that make it similar to Earth. It's day night cycle and seasonal cycle are close to Earth's
-                    allowing you do only have to adapt to the gravity. Of source there are some key differences including it's lack of Atmosphere, Magnetic field,
-                    low temperatures, and toxic soil but we provide suits that almost make it seem like you are back on Earth.
+                <h2>With over 20 locations on Neptune's moons and in Neptune's orbit, we provide places safe from it's massive storms for you to relax, sleep, and recover from the cold temperatures.
+                    Inside our facilities, we have hot spas for your warmth and relaxation after a long day of fun activities. We also have many other fun things like malls, 
+                    gyms, and living quarters throughout. 
                 </h2>
             </div>
         </Layout>
