@@ -231,7 +231,7 @@ export default function DetailsPage() {
         />
         <div className='scroll container background'>
           <p>
-            The dining area provides a comfortable area to converse and dine.
+            The dining area provides a comfortable area to converse and dine. As for food, we have an onsite kitchen and grow vegetables there.
           </p>
         </div>
 
