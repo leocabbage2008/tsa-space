@@ -193,7 +193,9 @@ model-viewer {
 #widthLine.expand p {
   opacity: 1;
 }
-
+#section2{
+  background: black;
+}
 #section3 {
   top: auto;
   bottom: 8em;

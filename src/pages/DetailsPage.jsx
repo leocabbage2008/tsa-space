@@ -260,7 +260,9 @@ export default function DetailsPage() {
 
         <div className='scroll center'>
           <h2>Ready to fly with us?</h2>
-          <p>Book Now</p>
+          <a href='/purchase'>
+              Book Now
+            </a>
         </div>
       </div>
     </Layout>
