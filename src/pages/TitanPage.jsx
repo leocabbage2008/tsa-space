@@ -17,7 +17,6 @@ export default function HomePage() {
                 <h2>
                     --------------------------------------------------------------------------------------------------------------
                 </h2>
-
                 <h1>Attractions</h1>
                 <h2>Titan has a surface thats somewhat similar to Earths 
                 giving possibilities for rivers with methane and sand dunes in the equatorial regions.
