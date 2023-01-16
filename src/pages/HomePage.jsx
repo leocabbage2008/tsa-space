@@ -14,10 +14,10 @@ export default function HomePage() {
           <h2>The next frontier for travel</h2>
           <div className='hero-flex'>
             <a className='link' href='/details'>
-              details
+              Details
             </a>
             <a className='link' href='/about'>
-              about
+              About
             </a>
           </div>
         </div>
@@ -28,12 +28,12 @@ export default function HomePage() {
         </div>
         <div className='top-block-content'>
           <h1>
-            The Future <br></br>of Travel in the present
+            The future <br></br>of travel in the present
           </h1>
           <h2 className='description'>
             Check out our rocket{' '}
             <a className='link' href='/details'>
-              here
+              here!
             </a>
           </h2>
         </div>
@@ -44,7 +44,7 @@ export default function HomePage() {
           <h1>
             Experience the future, purchase{' '}
             <a className='link' href='/purchase'>
-              now
+              now!
             </a>
           </h1>
         </div>
