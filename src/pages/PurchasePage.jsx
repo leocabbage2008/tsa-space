@@ -5,39 +5,50 @@ import "../assets/css/PurchasePage.css";
 export default function (PurchasePage) {
     return (
         <Layout>
-            <div className="content">
-                <h1>Explore our Destinations and plans</h1>
-            <div class="columns">
-                    <ul class="price">
-                    <li class="header">Visiting Your Mother</li>
-                    <li>25 bobux</li>
-                    <li>1 Day Travel time</li>
-                    <li>4 Days Long</li>
-                    <li><a href="#" class="button">Purchase</a></li>
-                </ul>
+            <div class="container">
+                <h2>Select Your Plan</h2>
+                <div class="price-row">
+                    <div class="price-col col1">
+                        <p>Basic</p>
+                        <h3>
+                            500 Rs <span>/month</span>
+                        </h3>
+                        <ul>
+                            <li>C programming basic</li>
+                            <li>Variables in c</li>
+                            <li>Function in c</li>
+                            <li>Basic programs in c</li>
+                        </ul>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="price-col col2">
+                        <p>Standard</p>
+                        <h3>
+                            1000 Rs <span>/month</span>
+                        </h3>
+                        <ul>
+                            <li>Algorithms in c</li>
+                            <li>Data structures in c</li>
+                            <li>Medium+hard level programs</li>
+                            <li>High quality study material</li>
+                        </ul>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="price-col col3">
+                        <p>Premium</p>
+                        <h3>
+                            1200 Rs <span>/month</span>
+                        </h3>
+                        <ul>
+                            <li>C programming basic</li>
+                            <li>Algorithms in c</li>
+                            <li>Data structures in c</li>
+                            <li>All level programs</li>
+                        </ul>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </div>
-            <div class="columns">
-                    <ul class="price">
-                    <li class="header">Planetary visit</li>
-                    <li>250 bobux</li>
-                    <li>1-7 Day Travel time</li>
-                    <li>14 Days Long</li>
-                    <li><a href="#" class="button">Purchase</a></li>
-                </ul>
-            </div>
-            <div class="columns">
-                    <ul class="price">
-                    <li class="header">Transystem Odyssey</li>
-                    <li>2500 bobux</li>
-                    <li>1 months total Travel time</li>
-                    <li>3 months Long</li>
-                    <li><a href="#" class="button">Purchase</a></li>
-                </ul>
-            </div>
-            </div>
-            
-
-
         </Layout>
     );
 }
