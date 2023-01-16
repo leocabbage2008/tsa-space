@@ -53,12 +53,10 @@ export default function DetailsPage() {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    scrollText.current.style.transform = `translate(-50%, ${
-      position / 15
-    }px)`;
-    arrow.current.style.transform = `translate(-50%, ${
-      position / 5
-    }px)`;
+    // setScrollPosition(position);
+
+    scrollText.current.style.transform = `translate(-50%, ${position / 15}px)`;
+    arrow.current.style.transform = `translate(-50%, ${position / 5}px)`;
 
     for (let i = 0; i < scrollPositions.length; i++) {
       if (i < items.length) {
@@ -94,12 +92,23 @@ export default function DetailsPage() {
           if (items[i].style.opacity < 0) {
             items[i].style.display = 'none';
           } else {
-            items[i].style.display = 'block';
+            items[i].style.display = 'initial';
           }
         }
       }
     }
   };
+  const body = document.body,
+    html = document.documentElement;
+  const scrollLimit =
+    Math.max(
+      body.scrollHeight,
+      body.offsetHeight,
+      html.clientHeight,
+      html.scrollHeight,
+      html.offsetHeight
+    ) - window.innerHeight;
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
 
@@ -113,6 +122,10 @@ export default function DetailsPage() {
   return (
     <Layout height='8000px' contentHeight='0px'>
       <div className='all'>
+        {/* <p style={{ position: 'fixed', color: 'gray', zIndex: '10', bottom: '0', fontSize: '1em'}}>
+          for debug: {scrollPosition} {scrollLimit}
+        </p> */}
+
         <div className='scroll'>
           <model-viewer
             src={scene}
@@ -140,29 +153,20 @@ export default function DetailsPage() {
         </div>
 
         <div className='scroll' id='centerText'>
-          <h1 className='title fixed clickThrough'>Meet the Ride</h1>
+          <h1 className='title center fixed clickThrough'>Meet the Ride</h1>
           {/* <div className='silluoette'></div> */}
         </div>
 
         <img
           src={shipFull}
           alt='whole ship'
-          className={`scroll centerY resize shipFull ${
-            window.innerWidth < 750 ? 'center' : ''
-          }`}
+          className='scroll centerX resize'
         />
         <div className='scroll container background' id='section1'>
-          <h2>Plenty of space!</h2>
-          <h1>
-            <br />
-            Length: 78 ft
-            <br />
-            <br />
-            Width: 20 ft
-            <br />
-            <br />
-            Capacity: 20 people
-          </h1>
+          <p>
+            The main body of the ship spans 78 feet long and 20 feet wide,
+            providing plenty of space to enjoy the experience.
+          </p>
         </div>
         {/* <div className='scroll' id='lengthLine'>
           <p className='label'>78 ft</p>
@@ -174,49 +178,27 @@ export default function DetailsPage() {
         <img
           src={shipInner}
           alt='inner ship'
-          className={`scroll centerY resize shipFull ${
-            window.innerWidth < 750 ? 'center' : ''
-          }`}
+          className='scroll centerX resize'
         />
         <div className='scroll container' id='section2'>
-          {/* <p>
-            6 rooms, 20 people, 1 ship.
-            The inside of the ship is split into 6
-            rooms, each with features built in for the comfort of our
-            passengers.
-          </p> */}
-        </div>
-
-        <img
-          src={cockpit}
-          alt='cockpit'
-          className={`scroll centerY resize shipFull ${
-            window.innerWidth < 750 ? 'center' : ''
-          }`}
-        />
-        <div className='scroll container background'>
           <p>
-            The cockpit holds 3 of our highly trained and experienced pilots,
-            ensuring your safety and comfort throughout the journey.
+            The inside of the ship is split into 6 rooms, each with special
+            features.
           </p>
         </div>
 
-        <div className='scroll grid'>
-          <img src={computerStation} alt='computer station' />
-          <img src={movieStation} alt='' />
-          <img src={diningArea} alt='' />
-          <img src={observationStation} alt='' />
+        <img src={cockpit} alt='cockpit' className='scroll centerX resize' />
+        <div className='scroll container background'>
+          <p>
+            The cockpit holds 3 of our highly trained and experienced pilots,
+            ensuring your safety and comfort.
+          </p>
         </div>
-        <div className='scroll center'>
-          <h2>Ready to fly with us?</h2>
-          <p>Book Now</p>
-        </div>
-        {/* <img
+
+        <img
           src={computerStation}
           alt='computer station'
-          className={`scroll centerX resize ${
-            window.innerWidth < 750 ? 'center' : ''
-          }`}
+          className='scroll centerX resize'
         />
         <div className='scroll container background'>
           <p>
@@ -229,14 +211,12 @@ export default function DetailsPage() {
         <img
           src={movieStation}
           alt='movie station'
-          className={`scroll centerX resize ${
-            window.innerWidth < 750 ? 'center' : ''
-          }`}
+          className='scroll centerX resize2'
         />
         <div className='scroll container background' id='section3'>
           <p>
-          The movie station allows you to watch any movie on our custom wide
-          screen, and will also be the dashboard providing information during
+            The movie station allows you to watch any movie on our custom wide
+            screen, and will also be the dashboard providing information during
             launch off.{' '}
           </p>
         </div>
@@ -244,10 +224,8 @@ export default function DetailsPage() {
         <img
           src={diningArea}
           alt='dining area'
-          className={`scroll centerX resize ${
-            window.innerWidth < 750 ? 'center' : ''
-          }`}
-          />
+          className='scroll centerX resize'
+        />
         <div className='scroll container background'>
           <p>
             The dining area provides a comfortable area to converse and dine.
@@ -258,9 +236,7 @@ export default function DetailsPage() {
           <img
             src={observationStation}
             alt='observation station'
-            className={`scroll centerX resize ${
-              window.innerWidth < 750 ? 'center' : ''
-            }`}
+            className='scroll centerX resize'
           />
           <div className='scroll' id='observationText'>
             <p className='label'>Titan</p>
@@ -280,7 +256,12 @@ export default function DetailsPage() {
             Also in the dining area, two interactive observation stations
             provide information about passing astrological features.
           </p>
-        </div> */}
+        </div>
+
+        <div className='scroll center'>
+          <h2>Ready to fly with us?</h2>
+          <p>Book Now</p>
+        </div>
       </div>
     </Layout>
   );

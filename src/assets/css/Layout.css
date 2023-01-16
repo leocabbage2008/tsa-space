@@ -10,6 +10,11 @@
   /* overflow: hidden; */
 }
 
+.content hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .content {
   padding: 10px 20px;
   grid-column: 2/3;
