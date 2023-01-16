@@ -7,22 +7,29 @@ export default function HomePage() {
         {
             title: "Mars Hotel Access",
             price: "$350k",
-            list: ["Stay at all of our locations on Mars","Does not include access to all of our Mars activities, pay for each activity on Mars"],
+            list: [
+                "Stay at all of our locations on Mars",
+                "Does not include access to all of our Mars activities, pay seperately for activitesi",
+            ],
         },
         {
             title: "Mars Full",
             price: "$500k",
-            list: ["Stay at all of our locations on Mars","Includes access to all of our Mars activities"],
+            list: [
+                "Stay at all of our locations on Mars",
+                "Includes access to all of our Mars activities",
+            ],
         },
         {
             title: "6+ party bundle",
             price: "$450k",
-            list: ["Same as before but with a discount for parties over 6!"],
+            list: ["Same as full plan but with a discount for parties over 6!"],
         },
     ];
     return (
         <Layout>
             <div className="content">
+                <h1 className="Title">Mars</h1>
                 <h1>The Red Planet</h1>
                 <h2>
                     Mars has many great places for you to visit. You could take
@@ -56,6 +63,7 @@ export default function HomePage() {
                     but we provide suits that almost make it seem like you are
                     back on Earth.
                 </h2>
+                <h1 className="options">Check out our purchase options</h1>
 
                 <PriceTable data={data} />
             </div>

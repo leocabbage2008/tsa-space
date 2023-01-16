@@ -7,22 +7,29 @@ export default function NeptunePage() {
         {
             title: "Neptune Moon Hotel Access",
             price: "$4M",
-            list: ["Stay at all of our locations on Neptune","Does not include access to all of our Neptune activities, pay for each activity on Neptune"],
+            list: [
+                "Stay at all of our locations on Neptune",
+                "Does not include access to all of our Neptune activities, pay seperately for activites",
+            ],
         },
         {
             title: "Neptune Full",
             price: "$4.5M",
-            list: ["Stay at all of our locations on Neptune","Includes access to all of our Neptune activities"],
+            list: [
+                "Stay at all of our locations on Neptune",
+                "Includes access to all of our Neptune activities",
+            ],
         },
         {
             title: "6+ party bundle",
             price: "$4.05M",
-            list: ["Same as before but with a discount for parties over 6!"],
+            list: ["Same as full plan but with a discount for parties over 6!"],
         },
     ];
     return (
         <Layout>
             <div className="content">
+                <h1 className="Title">Neptune</h1>
                 <h1>The God of Water and Seas</h1>
                 <h2>
                     Neptune is one of the best places to visit in our solar
@@ -39,6 +46,7 @@ export default function NeptunePage() {
                     from the cold temperatures. We have hot spas, malls, gyms,
                     and living quarters, all included in the package.
                 </h2>
+                <h1 className="options">Check out our purchase options</h1>
                 <PriceTable data={data} />
             </div>
         </Layout>

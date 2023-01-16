@@ -7,22 +7,29 @@ export default function HomePage() {
         {
             title: "Titan Hotel Access",
             price: "$1.1M",
-            list: ["Stay at all of our locations on Titan","Does not include access to all of our Titan activities, pay for each activity on Titan"],
+            list: [
+                "Stay at all of our locations on Titan",
+                "Does not include access to all of our Titan activities, pay seperately for activites",
+            ],
         },
         {
             title: "Titan Full",
-            price: "$1.5Mk",
-            list: ["Stay at all of our locations on Titan","Includes access to all of our Titan activities"],
+            price: "$1.5M",
+            list: [
+                "Stay at all of our locations on Titan",
+                "Includes access to all of our Titan activities",
+            ],
         },
         {
             title: "6+ party bundle",
             price: "$1.35M",
-            list: ["Same as before but with a discount for parties over 6!"],
+            list: ["Same as full plan but with a discount for parties over 6!"],
         },
     ];
     return (
         <Layout>
             <div className="content">
+                <h1 className="Title">Titan</h1>
                 <h1>Cutting Edge Technology</h1>
                 <h2>
                     While the temperature on Titan may go down to −290 °F or
@@ -55,6 +62,8 @@ export default function HomePage() {
                     locations, including a journey above Titan's atmosphere to
                     get a close view of Saturn's rings.
                 </h2>
+                <h1 className="options">Check out our purchase options</h1>
+
                 <PriceTable data={data} />
             </div>
         </Layout>
