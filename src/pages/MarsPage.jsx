@@ -14,7 +14,7 @@ export default function HomePage() {
                     --------------------------------------------------------------------------------------
                 </h1>
                 <h1>Our Facilities</h1>
-                <h2>With over 100 locations on Mars, we provide places safe from Mar's dust storms for you to relax, sleep, and recover from Mars's low gravity.
+                <h2>With 26 locations on Mars, we provide places safe from Mar's dust storms for you to relax, sleep, and recover from Mars's low gravity.
                     Also, we provide seasonal events on Mars as it's Seasons also have a cycle just like Earth. 
                 </h2>
                 <h1>
