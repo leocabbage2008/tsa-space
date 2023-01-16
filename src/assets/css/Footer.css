@@ -55,3 +55,17 @@ footer a {
 footer li {
   width: fit-content;
 }
+
+.sitemap p {
+  font-family: 'Mulish', sans-serif;
+  color: var(--pink);
+  font-size: 18px;
+}
+
+.copyright {
+  color: var(--pink);
+}
+
+.copyright p {
+  font-family: 'Mulish', sans-serif;
+}
