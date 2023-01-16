@@ -26,20 +26,21 @@ export default function SourcesPage() {
               https://school.eb.com/levels/high/article/Titan/72639
             </a>
             <p>
-              (Database Article)
               <br />
             </p>
             <a href='https://en.wikipedia.org/wiki/Titan_(moon)'>
               https://en.wikipedia.org/wiki/Titan_(moon)
             </a>
             <p>
-              (Online Article)
               <br />
             </p>
             <a href='https://en.wikipedia.org/wiki/Mars'>
               https://en.wikipedia.org/wiki/Mars
             </a>
-            <p>(Online Article)</p>
+            <br/>
+            <a href='https://solarsystem.nasa.gov/planets/neptune/overview/'>
+            https://solarsystem.nasa.gov/planets/neptune/overview/
+            </a>
           </Source>
           <Source title='Icons'>
             <a href='https://feathericons.com'>https://feathericons.com</a>
