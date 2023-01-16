@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +41,7 @@ body {
 h1,
 h2,
 p {
-  font-family: 'Mulish', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 }
 
 a {
