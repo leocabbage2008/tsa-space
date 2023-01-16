@@ -1,80 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-select: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-select: none;
 }
 html,
 body {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 :root {
-    --black: #050505;
-    --grey: #adb5bd;
-    --steel-blue: #53a5e9;
-    --cream: #f5f5f5;
-    /* CSS HEX */
-    /* from coolors.co */
-    --flickr-pink: #ae2b2b;
-    --pink: #de3939;
-    --byzantine: #e3e5f3;
-    /* --byzantine: #f0637a; */
-    --purple: #7209b7ff;
-    --trypan-blue: #480ca8ff;
-    --royal-purple: #55286f;
-    --trypan-blue-2: #3a0ca3ff;
-    --persian-blue: #3f37c9ff;
-    --ultra-blue: #4361eeff;
-    --blue: #4895efff;
-    --vivid-blue: #4cc9f0ff;
-    --street-yellow: #ffc300;
+  --black: #050505;
+  --grey: #adb5bd;
+  --steel-blue: #53a5e9;
+  --cream: #f5f5f5;
+  /* CSS HEX */
+  /* from coolors.co */
+  --flickr-pink: #ae2b2b;
+  --pink: #de3939;
+  --byzantine: #e3e5f3;
+  /* --byzantine: #f0637a; */
+  --purple: #7209b7ff;
+  --trypan-blue: #480ca8ff;
+  --royal-purple: #55286f;
+  --trypan-blue-2: #3a0ca3ff;
+  --persian-blue: #3f37c9ff;
+  --ultra-blue: #4361eeff;
+  --blue: #4895efff;
+  --vivid-blue: #4cc9f0ff;
+  --street-yellow: #ffc300;
 }
 
 h1,
 h2,
 p {
-    font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 a {
-    font-family: "Staatliches";
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-    color: var(--pink);
+  font-family: 'Staatliches';
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: var(--pink);
 }
 
 a:hover {
-    color: var(--flickr-pink);
+  color: var(--flickr-pink);
 }
 
 a:active {
-    color: var(--byzantine);
+  color: var(--byzantine);
 }
 
 button {
-    border-style: none;
-    background: transparent;
+  border-style: none;
+  background: transparent;
 }
 
 hr {
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid var(--byzantine);
-    padding: 0;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid var(--byzantine);
+  padding: 0;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 span {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }

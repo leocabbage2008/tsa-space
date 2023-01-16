@@ -3,10 +3,11 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: calc(100vw / 6) calc(200vw / 3) calc(100vw / 6);
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: auto;
   background: black;
   min-height: 80vh;
+  /* overflow: hidden; */
 }
 
 .content {

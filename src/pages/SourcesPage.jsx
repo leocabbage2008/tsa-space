@@ -10,13 +10,11 @@ export default function SourcesPage() {
         <div id='sources'>
           <ul>
             <li>
-              <Source title='Title Page Video'>
+              <Source title='Title Page Videos'>
                 <a href='https://pixabay.com/videos/world-earth-nasa-planet-globe-2/'>
                   https://pixabay.com/videos/world-earth-nasa-planet-globe-2/
                 </a>
-                <p>(Public Domain)</p>
-              </Source>
-              <Source title='Title Page Video'>
+                <p>(Public Domain)<br/></p>
                 <a href='https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/'>
                   https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/
                 </a>
@@ -31,6 +29,10 @@ export default function SourcesPage() {
                 <p>(Database Article)<br/></p>
                 <a href='https://en.wikipedia.org/wiki/Titan_(moon)'>
                 https://en.wikipedia.org/wiki/Titan_(moon)
+                </a>
+                <p>(Online Article)<br/></p>
+                <a href='https://en.wikipedia.org/wiki/Mars'>
+                https://en.wikipedia.org/wiki/Mars
                 </a>
                 <p>(Online Article)</p>
               </Source>
