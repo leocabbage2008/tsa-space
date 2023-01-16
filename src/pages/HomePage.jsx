@@ -47,7 +47,7 @@ export default function HomePage() {
                     <h1>
                         Step into the future, purchase{" "}
                         <a className="link" href="/purchase">
-                            here
+                            now
                         </a>
                     </h1>
                 </div>
