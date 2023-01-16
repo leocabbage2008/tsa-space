@@ -28,7 +28,12 @@ export default function Footer({ currentYear }) {
               <a href='/sources'>Sources</a>
             </li>
             <li>
-              <a href='/docs'>Documentation</a>
+              <a
+                target = '_blank' 
+                href='https://drive.google.com/file/d/1jCtR5-p1o4F2Y_4SVklmRieCoTfL-xr8/view?usp=sharing'
+                >
+                  Documentation
+                </a>
             </li>
           </ul>
         </li>
@@ -59,7 +64,11 @@ export default function Footer({ currentYear }) {
               </a>
             </li>
             <li>
-              <a target='_blank' href='https://www.facebook.com/profile.php?id=100089635383990' rel='noreferrer'>
+              <a
+                 target='_blank'
+                 href='https://www.facebook.com/profile.php?id=100089635383990' 
+                 rel='noreferrer'
+                >
                 Facebook
               </a>
             </li>
@@ -69,13 +78,17 @@ export default function Footer({ currentYear }) {
       <div className='footer-right'>
         <ul>
           <li>
-            <a target='_blank' href='' rel='noreferrer'>
+            <a 
+              target='_blank' 
+              href='https://drive.google.com/file/d/1tU38kRrT3hxlaFLc6BEMdUR2M-Yy5cN3/view?usp=sharing' 
+              rel='noreferrer'
+            >
               Terms of Use
             </a>
           </li>
           <li>
             <a
-              href='https://docs.google.com/document/d/1Yia5kfyCgx9FtaNo6Xi09xQ6K_fN3q5_xo5ARrrwrvc/edit?usp=sharing'
+              href='https://drive.google.com/file/d/1CDPfxqsO49jxIL_SeI917-Tda0uLDcXz/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
