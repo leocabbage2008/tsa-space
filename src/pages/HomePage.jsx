@@ -19,13 +19,16 @@ export default function HomePage() {
                         <a className="link" href="/details">
                             details
                         </a>
-                        <a className="link" href="/home">
-                            home
+                        <a className="link" href="/about">
+                            about
                         </a>
                     </div>
                 </div>
             </div>
             <div className="top-block">
+                <div className="top-block-img-container">
+                    <img src={rocket} className="top-block-img" alt="" />
+                </div>
                 <div className="block-content">
                     <h1>
                         The Future <br></br>of Travel
@@ -37,23 +40,22 @@ export default function HomePage() {
                         </a>
                     </h2>
                 </div>
-                <div className="top-block-img-container">
-                    <img src={rocket} className="top-block-img" alt="" />
-                </div>
+                
             </div>
             <div className="content">
-            <h1>Locations</h1>
+                <h1>Locations</h1>
                 <h2>
-                  With over 400 locations throught the Solar system, we have variety of locations and experiences for you to enjoy!
-                  From the scorching hot surface of Mercury and Venus to the frigid moons of the Jovian planets, we provide the nesscary
-                  equipment you need to have a great vacation with us.
+                    With over 400 locations throught the Solar system, we have variety of locations and experiences for you to enjoy!
+                    From the scorching hot surface of Mercury and Venus to the frigid moons of the Jovian planets, we provide the nesscary
+                    equipment you need to have a great vacation with us.
                 </h2>
-                <h2>
-                    --------------------------------------------------------------------------------------------------------------
-                </h2>
+
+                <hr></hr>
+                
                 <h1>The Fleet</h1>
-                <h2>Our highly specialized spaceship fleet is more than capable to fly you to the far reaches of our solar system.
-                  With the activities offered by our spaceships, days of travel will go by in an instant and you'll almost want to stay on it!
+                <h2>
+                    Our highly specialized spaceship fleet is more than capable to fly you to the far reaches of our solar system.
+                    With the activities offered by our spaceships, days of travel will go by in an instant and you'll almost want to stay on it!
                 </h2>
             </div>
         </Layout>

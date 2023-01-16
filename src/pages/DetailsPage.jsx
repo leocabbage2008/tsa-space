@@ -54,10 +54,10 @@ export default function DetailsPage() {
   const handleScroll = () => {
     const position = window.pageYOffset;
     scrollText.current.style.transform = `translate(-50%, ${
-      position ? position : 0 / 15
+      position / 15
     }px)`;
     arrow.current.style.transform = `translate(-50%, ${
-      position ? position : 0 / 5
+      position / 5
     }px)`;
 
     for (let i = 0; i < scrollPositions.length; i++) {
