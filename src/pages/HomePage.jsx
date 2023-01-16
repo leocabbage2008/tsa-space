@@ -43,9 +43,7 @@ export default function HomePage() {
         <div className='description block-content'>
           <h1>
             Experience the future, purchase{' '}
-            <a className='link' href='/purchase'>
               now!
-            </a>
           </h1>
         </div>
         <div className='block-img-container'>
