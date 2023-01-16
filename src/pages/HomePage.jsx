@@ -10,7 +10,7 @@ export default function HomePage() {
       <div className='hero-container'>
         <video autoPlay muted loop src={video}></video>
         <div className='hero'>
-          <h1>Out of this World Experiences</h1>
+          <h1>Out of this World</h1>
           <h2>The next frontier for travel</h2>
           <div className='hero-flex'>
             <a className='link' href='/details'>
