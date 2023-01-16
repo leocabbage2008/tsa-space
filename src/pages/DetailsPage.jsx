@@ -101,17 +101,6 @@ export default function DetailsPage() {
       }
     }
   };
-  const body = document.body,
-    html = document.documentElement;
-  const scrollLimit =
-    Math.max(
-      body.scrollHeight,
-      body.offsetHeight,
-      html.clientHeight,
-      html.scrollHeight,
-      html.offsetHeight
-    ) - window.innerHeight;
-
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
 
