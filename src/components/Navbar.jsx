@@ -29,7 +29,6 @@ export default function Navbar() {
   }, [toggle, sidebar]);
   useEffect(() => {
     const closeDropdown = (e) => {
-      console.log(e.path);
       if (
         !(
           e.path.includes(btnRef.current) || e.path.includes(contentRef.current)
@@ -49,12 +48,17 @@ export default function Navbar() {
       <div className={classNames('sidebar', { active: sidebar })}>
         <ul className='sidebar-links'>
           <li>
-            <a href='/ref'>Ref</a>
+            <a href='/about'>About</a>
           </li>
           <li>
             <hr />
           </li>
-          <li></li>
+          <li>
+            <a href='/purchase'>Purchase</a>
+          </li>
+          <li>
+            <hr />
+          </li>
           <li>
             <a href='/sources'>Sources</a>
           </li>
@@ -77,12 +81,6 @@ export default function Navbar() {
             </li>
             <li>
               <a href='/Details'>Details</a>
-            </li>
-            <li>
-              <a href='/about'>About</a>
-            </li>
-            <li>
-              <a href='/purchase'>Purchase</a>
             </li>
             <li>
               <div className='dropdown'>

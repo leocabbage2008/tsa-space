@@ -94,7 +94,7 @@ export default function DetailsPage() {
           if (items[i].style.opacity < 0) {
             items[i].style.display = 'none';
           } else {
-            items[i].style.display = 'initial';
+            items[i].style.display = 'block';
           }
         }
       }
@@ -152,10 +152,17 @@ export default function DetailsPage() {
           }`}
         />
         <div className='scroll container background' id='section1'>
-          <p>
-            The main body of the ship spans 78 feet long and 20 feet wide,
-            providing plenty of space to enjoy the experience.
-          </p>
+          <h2>Plenty of space!</h2>
+          <h1>
+            <br />
+            Length: 78 ft
+            <br />
+            <br />
+            Width: 20 ft
+            <br />
+            <br />
+            Capacity: 20 people
+          </h1>
         </div>
         {/* <div className='scroll' id='lengthLine'>
           <p className='label'>78 ft</p>
@@ -167,21 +174,23 @@ export default function DetailsPage() {
         <img
           src={shipInner}
           alt='inner ship'
-          className={`scroll centerX resize ${
+          className={`scroll centerY resize shipFull ${
             window.innerWidth < 750 ? 'center' : ''
           }`}
         />
         <div className='scroll container' id='section2'>
-          <p>
-            The inside of the ship is split into 6 rooms, each with features
-            built in for the comfort of our passengers.
-          </p>
+          {/* <p>
+            6 rooms, 20 people, 1 ship.
+            The inside of the ship is split into 6
+            rooms, each with features built in for the comfort of our
+            passengers.
+          </p> */}
         </div>
 
         <img
           src={cockpit}
           alt='cockpit'
-          className={`scroll centerX resize ${
+          className={`scroll centerY resize shipFull ${
             window.innerWidth < 750 ? 'center' : ''
           }`}
         />
@@ -192,7 +201,17 @@ export default function DetailsPage() {
           </p>
         </div>
 
-        <img
+        <div className='scroll grid'>
+          <img src={computerStation} alt='computer station' />
+          <img src={movieStation} alt='' />
+          <img src={diningArea} alt='' />
+          <img src={observationStation} alt='' />
+        </div>
+        <div className='scroll center'>
+          <h2>Ready to fly with us?</h2>
+          <p>Book Now</p>
+        </div>
+        {/* <img
           src={computerStation}
           alt='computer station'
           className={`scroll centerX resize ${
@@ -216,8 +235,8 @@ export default function DetailsPage() {
         />
         <div className='scroll container background' id='section3'>
           <p>
-            The movie station allows you to watch any movie on our custom wide
-            screen, and will also be the dashboard providing information during
+          The movie station allows you to watch any movie on our custom wide
+          screen, and will also be the dashboard providing information during
             launch off.{' '}
           </p>
         </div>
@@ -228,10 +247,10 @@ export default function DetailsPage() {
           className={`scroll centerX resize ${
             window.innerWidth < 750 ? 'center' : ''
           }`}
-        />
+          />
         <div className='scroll container background'>
           <p>
-            The dining area provides a comfortable area to converse and dine. As for food, we have an onsite kitchen and grow vegetables there.
+            The dining area provides a comfortable area to converse and dine.
           </p>
         </div>
 
@@ -261,12 +280,7 @@ export default function DetailsPage() {
             Also in the dining area, two interactive observation stations
             provide information about passing astrological features.
           </p>
-        </div>
-
-        <div className='scroll center'>
-          <h2>Ready to fly with us?</h2>
-          <p>Book Now</p>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
