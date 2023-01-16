@@ -10,8 +10,8 @@ export default function HomePage() {
       <div className='hero-container'>
         <video autoPlay muted loop src={video}></video>
         <div className='hero'>
-          <h1>Out of this World</h1>
-          <h2>Next frontier for travel</h2>
+          <h1>Out of this World Experiences</h1>
+          <h2>The next frontier for travel</h2>
           <div className='hero-flex'>
             <a className='link' href='/details'>
               details
@@ -28,7 +28,7 @@ export default function HomePage() {
         </div>
         <div className='top-block-content'>
           <h1>
-            The Future <br></br>of Travel
+            The Future <br></br>of Travel in the present
           </h1>
           <h2 className='description'>
             Check out our rocket{' '}
@@ -42,7 +42,7 @@ export default function HomePage() {
         <div className='left-block-background' />
         <div className='description block-content'>
           <h1>
-            Step into the future, purchase{' '}
+            Experience the future, purchase{' '}
             <a className='link' href='/purchase'>
               now
             </a>
