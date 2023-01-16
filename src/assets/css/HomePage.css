@@ -192,7 +192,9 @@
 }
 
 .block-content h1 {
+  position: relative;
   font-size: 5rem;
+  z-index: 0;
 }
 
 .block-content a {
