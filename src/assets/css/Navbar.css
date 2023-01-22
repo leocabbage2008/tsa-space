@@ -15,7 +15,7 @@ nav {
 
 .ghost {
   display: flex;
-  height: 92px;
+  height: 96px;
   min-height: 6vh;
   background: var(--black);
 }

@@ -12,9 +12,18 @@ export default function Navbar() {
   const btnRef = useRef();
   const toggleDropdown = () => setDropdown(!dropdown);
   const toggle = useCallback(() => {
-    document.body.style.overflowY = document.getElementById(
-      'root'
-    ).style.overflowY = sidebar ? 'hidden' : 'hidden';
+    // document.body.style.overflowY = document.getElementById(
+    //   'root'
+    // ).style.overflowY = sidebar ? 'scroll' : 'hidden';
+    if (sidebar) {
+      window.onscroll = function () {};
+    } else if (!sidebar) {
+      var x = window.scrollX;
+      var y = window.scrollY;
+      window.onscroll = function () {
+        window.scrollTo(x, y);
+      };
+    }
     setSidebar(!sidebar);
   }, [sidebar]);
   useEffect(() => {
