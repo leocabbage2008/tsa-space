@@ -14,7 +14,7 @@ export default function Navbar() {
   const toggle = useCallback(() => {
     document.body.style.overflowY = document.getElementById(
       'root'
-    ).style.overflowY = sidebar ? 'scroll' : 'hidden';
+    ).style.overflowY = sidebar ? 'hidden' : 'hidden';
     setSidebar(!sidebar);
   }, [sidebar]);
   useEffect(() => {
