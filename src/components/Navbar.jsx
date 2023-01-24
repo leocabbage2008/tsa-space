@@ -12,9 +12,7 @@ export default function Navbar() {
   const btnRef = useRef();
   const toggleDropdown = () => setDropdown(!dropdown);
   const toggle = useCallback(() => {
-    // document.body.style.overflowY = document.getElementById(
-    //   'root'
-    // ).style.overflowY = sidebar ? 'scroll' : 'hidden';
+    // Prevents scrolling when sidebar is open
     if (sidebar) {
       window.onscroll = function () {};
     } else if (!sidebar) {
@@ -27,6 +25,7 @@ export default function Navbar() {
     setSidebar(!sidebar);
   }, [sidebar]);
   useEffect(() => {
+    // Closes sidebar when escape key is pressed
     const keyPress = (e) => {
       if (e.key === 'Escape' && sidebar) toggle();
     };
@@ -37,6 +36,7 @@ export default function Navbar() {
     };
   }, [toggle, sidebar]);
   useEffect(() => {
+    // Closes dropdown when clicking outside of it
     const closeDropdown = (e) => {
       if (
         !(

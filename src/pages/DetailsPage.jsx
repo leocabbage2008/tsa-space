@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createRef } from 'react';
+import React, { useEffect, createRef } from 'react';
 import Layout from '../components/Layout';
 import '.././assets/css/DetailsPage.css';
 import scene from '../assets/glb/build.gltf';
@@ -17,7 +17,6 @@ export default function DetailsPage() {
   useEffect(() => {
     alert('Please wait 10 seconds. The model is loading.');
   }, []);
-  const [scrollPosition, setScrollPosition] = useState(0);
   const scrollPositions = [
     // startsVisible: if starts opacity 1, start: position to start fade in, fadeIn: scroll length to go from opacity 0 to 1
     // end: position to start fade out, fadeOut: scroll length to go from opacity 1 to 0
@@ -41,22 +40,15 @@ export default function DetailsPage() {
     { startsVisible: false, start: 5800, fadeIn: 200, end: 6800, fadeOut: 200 }, // observation station
     { startsVisible: false, start: 6300, class: 'appear', end: 6800 }, // observation text
     { startsVisible: false, start: 6200, class: 'appear', end: 6800 }, // text 7
-    // { startsVisible: false, start: 6800, fadeIn: 200, end: 8000, fadeOut: 0}, // final text
     { startsVisible: false, start: 6800, fadeIn: 200, end: 8000, fadeOut: 0 },
   ];
 
   const items = document.getElementsByClassName('scroll');
-
-  useEffect(() => {
-    setScrollPosition(window.scrollY);
-  }, []);
-
   const scrollText = createRef();
   const arrow = createRef();
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    // setScrollPosition(position);
 
     scrollText.current.style.transform = `translate(-50%, ${position / 15}px)`;
     arrow.current.style.transform = `translate(-50%, ${position / 5}px)`;
@@ -102,6 +94,7 @@ export default function DetailsPage() {
     }
   };
   useEffect(() => {
+    // handles scroll event
     window.addEventListener('scroll', handleScroll, { passive: true });
 
     handleScroll();
@@ -114,10 +107,6 @@ export default function DetailsPage() {
   return (
     <Layout height='8000px' contentHeight='0px'>
       <div className='all'>
-        {/* <p style={{ position: 'fixed', color: 'gray', zIndex: '10', bottom: '0', fontSize: '1em'}}>
-          for debug: {scrollPosition} {scrollLimit}
-        </p> */}
-
         <div className='scroll'>
           <model-viewer
             src={scene}
@@ -160,13 +149,6 @@ export default function DetailsPage() {
             providing plenty of space to enjoy the experience.
           </p>
         </div>
-        {/* <div className='scroll' id='lengthLine'>
-          <p className='label'>78 ft</p>
-        </div>
-        <div className='scroll' id='widthLine'>
-          <p className='label'>20 ft</p>
-        </div> */}
-
         <img
           src={shipInner}
           alt='inner ship'
