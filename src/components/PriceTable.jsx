@@ -18,7 +18,9 @@ export default function PriceTable({ data }) {
                   return <li key={i}>{item}</li>;
                 })}
               </ul>
+              <a href='/purchase'>
               <button>Buy Now</button>
+              </a>
             </div>
           </div>
         );

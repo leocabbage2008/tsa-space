@@ -6,6 +6,7 @@ import classNames from 'classnames';
 export default function ScrollToTop() {
   const [visible, setVisible] = useState(false);
   useEffect(() => {
+    // Shows button when user scrolls down 100px
     window.addEventListener('scroll', () => {
       setVisible(window.scrollY > 100);
     });

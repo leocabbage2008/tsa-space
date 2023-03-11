@@ -81,8 +81,8 @@
 .top-block-content {
     position: absolute;
     display: flex;
-    bottom: 20%;
-    right: 10%;
+    bottom: 20vh;
+    right: 2rem;
     font-size: 7vh;
     padding: 1.5rem;
     text-align: right;
@@ -102,7 +102,7 @@
 
 .top-block-img {
     transform: translateX(-15%);
-    width: 90vw;
+    width: 75vw;
 }
 
 .bottom-block {
@@ -144,9 +144,6 @@
     }
     .top-block-content h1 {
         font-size: 3rem;
-    }
-    .top-block-content h2 {
-        font-size: 1.5rem;
     }
     .top-block-content {
         padding-top: 1rem;

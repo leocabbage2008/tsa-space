@@ -16,7 +16,7 @@ export default function Footer({ currentYear }) {
       </a>
       <ul className='sitemap-container'>
         <li className='sitemap'>
-          <p>Information</p>
+          <p>INFORMATION</p>
           <ul>
             <li>
               <a href='/'>Home</a>
@@ -29,16 +29,17 @@ export default function Footer({ currentYear }) {
             </li>
             <li>
               <a
-                target = '_blank' 
+                target='_blank'
                 href='https://drive.google.com/file/d/1jCtR5-p1o4F2Y_4SVklmRieCoTfL-xr8/view?usp=sharing'
-                >
-                  Documentation
-                </a>
+                rel='noreferrer'
+              >
+                Documentation
+              </a>
             </li>
           </ul>
         </li>
         <li className='sitemap'>
-          <p>Planets</p>
+          <p>PLANETS</p>
           <ul>
             <li>
               <a href='/login'>Titan</a>
@@ -52,7 +53,7 @@ export default function Footer({ currentYear }) {
           </ul>
         </li>
         <li className='sitemap'>
-          <p>Contact</p>
+          <p>CONTACT</p>
           <ul>
             <li>
               <a
@@ -65,10 +66,10 @@ export default function Footer({ currentYear }) {
             </li>
             <li>
               <a
-                 target='_blank'
-                 href='https://www.facebook.com/profile.php?id=100089635383990' 
-                 rel='noreferrer'
-                >
+                target='_blank'
+                href='https://www.facebook.com/profile.php?id=100089635383990'
+                rel='noreferrer'
+              >
                 Facebook
               </a>
             </li>
@@ -78,9 +79,9 @@ export default function Footer({ currentYear }) {
       <div className='footer-right'>
         <ul>
           <li>
-            <a 
-              target='_blank' 
-              href='https://drive.google.com/file/d/1tU38kRrT3hxlaFLc6BEMdUR2M-Yy5cN3/view?usp=sharing' 
+            <a
+              target='_blank'
+              href='https://drive.google.com/file/d/1tU38kRrT3hxlaFLc6BEMdUR2M-Yy5cN3/view?usp=sharing'
               rel='noreferrer'
             >
               Terms of Use
@@ -95,7 +96,7 @@ export default function Footer({ currentYear }) {
               Privacy Policy
             </a>
           </li>
-          <li>
+          <li className='copyright'>
             <p>©{currentYear} MSP</p>
           </li>
         </ul>
