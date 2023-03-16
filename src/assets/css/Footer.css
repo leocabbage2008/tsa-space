@@ -4,7 +4,6 @@ footer {
   background-color: var(--black);
   color: var(--cream);
   padding: 20px;
-  padding-right: 10px;
   justify-content: space-between;
 }
 .sitemap ul {

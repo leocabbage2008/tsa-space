@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/css/PriceTable.css';
 
 export default function PriceTable({ data }) {
-  console.log(data);
   return (
     <div className='plan-container'>
       {data.map((item, i) => {
@@ -19,7 +18,7 @@ export default function PriceTable({ data }) {
                 })}
               </ul>
               <a href='/purchase'>
-              <button>Buy Now</button>
+                <button>Buy Now</button>
               </a>
             </div>
           </div>

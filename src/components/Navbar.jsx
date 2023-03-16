@@ -38,12 +38,7 @@ export default function Navbar() {
   useEffect(() => {
     // Closes dropdown when clicking outside of it
     const closeDropdown = (e) => {
-      if (
-        !(
-          e.path.includes(btnRef.current) || e.path.includes(contentRef.current)
-        )
-      )
-        setDropdown(false);
+      if (e.target && !e.target.contains(btnRef.current)) setDropdown(false);
     };
     document.body.addEventListener('click', closeDropdown);
     return () => document.body.removeEventListener('click', closeDropdown);

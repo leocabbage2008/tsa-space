@@ -11,7 +11,8 @@
   user-select: none;
 }
 html,
-body, #root{
+body,
+#root {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -41,7 +42,7 @@ body, #root{
 h1,
 h2,
 p {
-font-family: 'Rajdhani', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 a {
@@ -56,7 +57,7 @@ a:hover {
 }
 
 a:active {
-  color: var(--byzantine);
+  color: var(--street-yellow);
 }
 
 button {
