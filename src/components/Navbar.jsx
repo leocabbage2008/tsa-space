@@ -73,52 +73,54 @@ export default function Navbar() {
           <img className='logo' src={logo} alt='' height='50' width='100' />
         </a>
         <div className='nav-container'>
-          <ul className='nav-links'>
-            <li>
-              <a href='/'>Home</a>
-            </li>
-            <li>
-              <a href='/Details'>Details</a>
-            </li>
-            <li>
-              <div className='dropdown'>
-                <a
-                  className='dropdown-btn'
-                  onClick={toggleDropdown}
-                  ref={btnRef}
-                >
-                  Destinations <ChevronDown />
-                </a>
-                <div
-                  className={classNames('dropdown-content', {
-                    'dropdown-active': dropdown,
-                  })}
-                  ref={contentRef}
-                  style={
-                    dropdown
-                      ? {
-                          height: contentRef.current.scrollHeight,
-                        }
-                      : { height: 0 }
-                  }
-                >
-                  <div className='padder'>
-                    <ul>
-                      <li>
-                        <a href='/titan'>titan</a>
-                      </li>
-                      <li>
-                        <a href='/mars'>mars</a>
-                      </li>
-                      <li>
-                        <a href='/neptune'>neptune</a>
-                      </li>
-                    </ul>
+          <div className='nav-link-center'>
+            <ul className='nav-links'>
+              <li>
+                <a href='/'>Home</a>
+              </li>
+              <li>
+                <a href='/Details'>Details</a>
+              </li>
+              <li>
+                <div className='dropdown'>
+                  <a
+                    className='dropdown-btn'
+                    onClick={toggleDropdown}
+                    ref={btnRef}
+                  >
+                    Destinations <ChevronDown />
+                  </a>
+                  <div
+                    className={classNames('dropdown-content', {
+                      'dropdown-active': dropdown,
+                    })}
+                    ref={contentRef}
+                    style={
+                      dropdown
+                        ? {
+                            height: contentRef.current.scrollHeight,
+                          }
+                        : { height: 0 }
+                    }
+                  >
+                    <div className='padder'>
+                      <ul>
+                        <li>
+                          <a href='/titan'>titan</a>
+                        </li>
+                        <li>
+                          <a href='/mars'>mars</a>
+                        </li>
+                        <li>
+                          <a href='/neptune'>neptune</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
           <button
             className={classNames('burger', {
               'active-burger': sidebar,

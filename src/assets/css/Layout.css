@@ -36,4 +36,7 @@
   .content a {
     font-size: 18px;
   }
+  #main {
+    grid-template-columns: 1fr;
+  }
 }
