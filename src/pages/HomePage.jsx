@@ -22,7 +22,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className='top-block'>
+      {/* <div className='top-block'>
         <div className='top-block-img-container'>
           <img src={rocket} className='top-block-img' alt='' />
         </div>
@@ -37,7 +37,7 @@ export default function HomePage() {
             </a>
           </h2>
         </div>
-      </div>
+      </div> */}
       <div className='left-block'>
         <div className='left-block-background' />
         <div className='description block-content'>
