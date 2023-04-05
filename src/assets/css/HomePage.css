@@ -39,12 +39,18 @@
   }
 }
 
-@media only screen and (max-width: 867px) {
+@media only screen and (max-width: 1024px) {
   .hero-container video {
-    transform: translate(-35%);
+    transform: translate(-30%);
   }
   .hero h1 {
     font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .hero-container video {
+    transform: translate(-40%);
   }
 }
 
@@ -231,5 +237,71 @@
 @media screen and (max-width: 775px) {
   .top-block-content {
     grid: auto 1fr/1fr;
+  }
+}
+
+.planets {
+  grid-column: 1 / span 3;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.planets-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.planets h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+.planets h6 {
+  font-size: 1.5rem;
+}
+
+.planets-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.planets-container img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.link-filler {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.link-filler :hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 775px) {
+  .planets-container {
+    grid-template-columns: 1fr;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
   }
 }

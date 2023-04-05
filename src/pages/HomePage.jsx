@@ -3,6 +3,9 @@ import Layout from '../components/Layout';
 import video from '../assets/images/world.mp4';
 import launch from '../assets/images/launch.jpg';
 import rocket from '../assets/images/rocket_transparent.png';
+import titan from '../assets/images/titan.png';
+import mars from '../assets/images/mars.png';
+import neptune from '../assets/images/neptune.png';
 import '../assets/css/HomePage.css';
 export default function HomePage() {
   return (
@@ -50,6 +53,35 @@ export default function HomePage() {
         </div>
         <div className='block-img-container'>
           <img src={launch} className='block-img' alt='' />
+        </div>
+      </div>
+      <div className='planets'>
+        <div className='planets-title'>
+          <h1>Available Destinations</h1>
+          <h6>Click on each to learn more</h6>
+        </div>
+        <div className='planets-container'>
+          <div className='planet-container'>
+            <a href='/titan'>
+              <span class='link-filler'></span>
+            </a>
+            <h1>Titan has titanic amounts of fun!</h1>
+            <img src={titan} alt='' />
+          </div>
+          <div className='planet-container'>
+            <a href='/mars'>
+              <span class='link-filler'></span>
+            </a>
+            <h1>Mars is a classic...</h1>
+            <img src={mars} alt='' />
+          </div>
+          <div className='planet-container'>
+            <a href='/neptune'>
+              <span class='link-filler'></span>
+            </a>
+            <h1>Neptune is an unexplored adventure.</h1>
+            <img src={neptune} alt='' />
+          </div>
         </div>
       </div>
     </Layout>
