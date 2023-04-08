@@ -174,8 +174,8 @@ export default function DetailsPage() {
         <div className='scroll container background'>
           <p>
             The computer station uses our patented screen embeded in the
-            windows. Our specialized complementary internet access allows 
-            you to surf the web with the backdrop of space.{' '}
+            windows. Our specialized complementary internet access allows you to
+            surf the web with the backdrop of space.{' '}
           </p>
         </div>
 
@@ -187,8 +187,8 @@ export default function DetailsPage() {
         <div className='scroll container background' id='section3'>
           <p>
             The movie station allows you to watch any movie on our custom wide
-            screen, and will also be where dashboard providing information during
-            launch and return.{' '}
+            screen, and will also be where dashboard providing information
+            during launch and return.{' '}
           </p>
         </div>
 
@@ -200,8 +200,8 @@ export default function DetailsPage() {
         <div className='scroll container background'>
           <p>
             The dining area provides a comfortable area to converse and dine.
-            Our chefs have traveled around the work and found the best ingredients
-            to create the best food for your appetite.
+            Our chefs have traveled around the work and found the best
+            ingredients to create the best food for your appetite.
           </p>
         </div>
 
