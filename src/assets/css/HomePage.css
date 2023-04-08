@@ -257,6 +257,23 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 400px;
+}
+
+.planet-container h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 1313px) {
+  .planet-container h1 {
+    font-size: 1.5rem;
+  }
+  .planets-container img {
+    padding-top: 5px;
+  }
+  .planets-title h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .planets h1,
@@ -280,7 +297,7 @@ h6 {
 
 .planets-container img {
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 300px;
   object-fit: cover;
   padding-top: 10px;
@@ -294,6 +311,7 @@ h6 {
   left: 0;
   z-index: 1;
 }
+
 .link-filler :hover {
   cursor: pointer;
 }
@@ -304,5 +322,15 @@ h6 {
     padding-left: 25px;
     padding-right: 25px;
     flex-direction: column;
+    row-gap: 35px;
+  }
+  .planets-title h1 {
+    font-size: 3.5rem;
+  }
+  .planet-container h1 {
+    font-size: 1.8rem;
+  }
+  .planet-container {
+    width: auto;
   }
 }
