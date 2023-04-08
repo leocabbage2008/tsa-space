@@ -14,9 +14,6 @@ import observationStation from '../assets/images/observation_station.webp';
 import { ReactComponent as DownArrow } from '../assets/svg/down_arrow.svg';
 
 export default function DetailsPage() {
-  useEffect(() => {
-    alert('Please wait 10 seconds. The model is loading.');
-  }, []);
   const scrollPositions = [
     // startsVisible: if starts opacity 1, start: position to start fade in, fadeIn: scroll length to go from opacity 0 to 1
     // end: position to start fade out, fadeOut: scroll length to go from opacity 1 to 0

@@ -41,31 +41,17 @@ export default function HomePage() {
           </h2>
         </div>
       </div> */}
-      <div className='left-block'>
-        <div className='left-block-background' />
-        <div className='description block-content'>
-          <h1>
-            Learn about the team{' '}
-            <a className='link' href='/about'>
-              here!
-            </a>
-          </h1>
-        </div>
-        <div className='block-img-container'>
-          <img src={launch} className='block-img' alt='' />
-        </div>
-      </div>
       <div className='planets'>
         <div className='planets-title'>
           <h1>Available Destinations</h1>
-          <h6>Click on each to learn more</h6>
+          <h6>Click on each planet to learn more</h6>
         </div>
         <div className='planets-container'>
           <div className='planet-container'>
             <a href='/titan'>
               <span class='link-filler'></span>
             </a>
-            <h1>Titan has titanic amounts of fun!</h1>
+            <h1>Titan is titanic amounts of fun!</h1>
             <img src={titan} alt='' />
           </div>
           <div className='planet-container'>
@@ -79,9 +65,23 @@ export default function HomePage() {
             <a href='/neptune'>
               <span class='link-filler'></span>
             </a>
-            <h1>Neptune is an unexplored adventure.</h1>
+            <h1>Neptune is an adventure.</h1>
             <img src={neptune} alt='' />
           </div>
+        </div>
+      </div>
+      <div className='left-block'>
+        <div className='left-block-background' />
+        <div className='description block-content'>
+          <h1>
+            Learn about the team{' '}
+            <a className='link' href='/about'>
+              here!
+            </a>
+          </h1>
+        </div>
+        <div className='block-img-container'>
+          <img src={launch} className='block-img' alt='' />
         </div>
       </div>
     </Layout>
