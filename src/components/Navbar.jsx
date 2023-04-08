@@ -38,7 +38,12 @@ export default function Navbar() {
   useEffect(() => {
     // Closes dropdown when clicking outside of it
     const closeDropdown = (e) => {
-      if (e.target && !e.target.contains(btnRef.current)) setDropdown(false);
+      if (
+        e.target &&
+        !e.target.contains(btnRef.current) &&
+        e.target.className !== 'dropdown-links'
+      )
+        setDropdown(false);
     };
     document.body.addEventListener('click', closeDropdown);
     return () => document.body.removeEventListener('click', closeDropdown);
@@ -106,13 +111,19 @@ export default function Navbar() {
                     <div className='padder'>
                       <ul>
                         <li>
-                          <a href='/titan'>titan</a>
+                          <a href='/titan' className='dropdown-links'>
+                            titan
+                          </a>
                         </li>
                         <li>
-                          <a href='/mars'>mars</a>
+                          <a href='/mars' className='dropdown-links'>
+                            mars
+                          </a>
                         </li>
                         <li>
-                          <a href='/neptune'>neptune</a>
+                          <a href='/neptune' className='dropdown-links'>
+                            neptune
+                          </a>
                         </li>
                       </ul>
                     </div>

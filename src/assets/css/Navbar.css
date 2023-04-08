@@ -242,6 +242,12 @@ nav {
 
 .dropdown-content .padder {
   padding: 1rem;
+  padding-right: 0;
+}
+
+.padder a {
+  width: 100%;
+  display: inline-block;
 }
 
 .dropdown-content.dropdown-active {

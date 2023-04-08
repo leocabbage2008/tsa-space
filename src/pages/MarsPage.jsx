@@ -6,7 +6,7 @@ export default function HomePage() {
   const data = [
     {
       title: 'Mars Hotel Access',
-      price: '$350k',
+      price: '$1M',
       list: [
         'Stay at all of our locations on Mars',
         'Does not include access to all of our Mars activities, pay seperately for activitesi',
@@ -14,7 +14,7 @@ export default function HomePage() {
     },
     {
       title: 'Mars Full',
-      price: '$500k',
+      price: '$2M',
       list: [
         'Stay at all of our locations on Mars',
         'Includes access to all of our Mars activities',
@@ -22,7 +22,7 @@ export default function HomePage() {
     },
     {
       title: '6+ party bundle',
-      price: '$450k',
+      price: '$3M',
       list: ['Same as full plan but with a discount for parties over 6!'],
     },
   ];

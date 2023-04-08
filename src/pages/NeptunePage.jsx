@@ -22,7 +22,7 @@ export default function NeptunePage() {
     },
     {
       title: '6+ party bundle',
-      price: '$4.05M',
+      price: '$4.1M',
       list: ['Same as full plan but with a discount for parties over 6!'],
     },
   ];
