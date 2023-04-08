@@ -8,7 +8,7 @@ export default function SourcesPage() {
       <div className='content'>
         <h1>Sources Page</h1>
         <div id='sources'>
-          <Source title='Title Page Videos'>
+          <Source title='Home Page Videos'>
             <a href='https://pixabay.com/videos/world-earth-nasa-planet-globe-2/'>
               https://pixabay.com/videos/world-earth-nasa-planet-globe-2/
             </a>
@@ -37,9 +37,9 @@ export default function SourcesPage() {
             <a href='https://en.wikipedia.org/wiki/Mars'>
               https://en.wikipedia.org/wiki/Mars
             </a>
-            <br/>
+            <br />
             <a href='https://solarsystem.nasa.gov/planets/neptune/overview/'>
-            https://solarsystem.nasa.gov/planets/neptune/overview/
+              https://solarsystem.nasa.gov/planets/neptune/overview/
             </a>
           </Source>
           <Source title='Icons'>
@@ -59,6 +59,22 @@ export default function SourcesPage() {
               Staatliches
             </a>
             <p>(SIL Open Font License)</p>
+          </Source>
+          <Source title='Home page pictures'>
+            <a href='https://solarsystem.nasa.gov/moons/saturn-moons/titan/overview/'>
+              Titan
+            </a>
+            <p>(Public Domain)</p>
+            <br />
+            <a href='https://solarsystem.nasa.gov/planets/mars/overview/'>
+              Mars
+            </a>
+            <p>(Public Domain)</p>
+            <br />
+            <a href='https://solarsystem.nasa.gov/planets/neptune/overview/'>
+              Neptune
+            </a>
+            <p>(Public Domain)</p>
           </Source>
         </div>
       </div>

@@ -283,6 +283,7 @@ h6 {
   height: 100%;
   max-width: 300px;
   object-fit: cover;
+  padding-top: 10px;
 }
 
 .link-filler {
