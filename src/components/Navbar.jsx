@@ -84,7 +84,7 @@ export default function Navbar() {
                 <a href='/'>Home</a>
               </li>
               <li>
-                <a href='/details'>Details</a>
+                <a href='/Details'>Details</a>
               </li>
               <li>
                 <div className='dropdown'>
