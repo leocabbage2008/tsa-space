@@ -177,8 +177,8 @@ export default function DetailsPage() {
         <div className='scroll container background'>
           <p>
             The computer station uses our patented screen embeded in the
-            windows. Free internet access allows you to surf the web with a
-            backdrop of space.{' '}
+            windows. Our specialized complementary internet access allows 
+            you to surf the web with the backdrop of space.{' '}
           </p>
         </div>
 
@@ -190,8 +190,8 @@ export default function DetailsPage() {
         <div className='scroll container background' id='section3'>
           <p>
             The movie station allows you to watch any movie on our custom wide
-            screen, and will also be the dashboard providing information during
-            launch off.{' '}
+            screen, and will also be where dashboard providing information during
+            launch and return.{' '}
           </p>
         </div>
 
@@ -203,6 +203,8 @@ export default function DetailsPage() {
         <div className='scroll container background'>
           <p>
             The dining area provides a comfortable area to converse and dine.
+            Our chefs have traveled around the work and found the best ingredients
+            to create the best food for your appetite.
           </p>
         </div>
 
@@ -216,12 +218,12 @@ export default function DetailsPage() {
             <p className='label'>Titan</p>
             <hr className='label'></hr>
             <p className='label'>
-              Titan, the largest moon of Saturn and the only moon in the solar
+              Titan, the largest moon of Saturn and the only moon in our solar
               system known to have clouds and a dense atmosphere. It is the only
               body... →{' '}
             </p>
             <p className='label'>
-              <i>From Britannica</i>
+              <i>From the Encyclopædia Britannica</i>
             </p>
           </div>
         </div>
@@ -235,7 +237,7 @@ export default function DetailsPage() {
         <div className='scroll center'>
           <h2>Ready to fly with us?</h2>
           <a className='purchase' href='/purchase'>
-            Book Now
+            Book Now!
           </a>
         </div>
       </div>

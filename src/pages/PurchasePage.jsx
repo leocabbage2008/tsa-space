@@ -27,7 +27,7 @@ export default function PurchasePage() {
                     type='text'
                     id='fname'
                     name='firstname'
-                    placeholder='John M. Doe'
+                    placeholder='ex. John M. Doe'
                   />
                   <label htmlFor='email'>
                     <i className='fa fa-envelope'></i> Email
@@ -36,7 +36,7 @@ export default function PurchasePage() {
                     type='text'
                     id='email'
                     name='email'
-                    placeholder='john@example.com'
+                    placeholder='ex. john@example.com'
                   />
                   <label htmlFor='adr'>
                     <i className='fa fa-address-card-o'></i> Address
@@ -45,7 +45,7 @@ export default function PurchasePage() {
                     type='text'
                     id='adr'
                     name='address'
-                    placeholder='542 W. 15th Street'
+                    placeholder='ex. 777 Water Wheel Dr'
                   />
                   <label htmlFor='city'>
                     <i className='fa fa-institution'></i> City
@@ -54,7 +54,7 @@ export default function PurchasePage() {
                     type='text'
                     id='city'
                     name='city'
-                    placeholder='New York'
+                    placeholder='ex. Seven Springs'
                   />
 
                   <div className='row'>
@@ -64,7 +64,7 @@ export default function PurchasePage() {
                         type='text'
                         id='state'
                         name='state'
-                        placeholder='NY'
+                        placeholder='ex. PA'
                       />
                     </div>
                     <div className='col-50'>
@@ -73,7 +73,7 @@ export default function PurchasePage() {
                         type='text'
                         id='zip'
                         name='zip'
-                        placeholder='10001'
+                        placeholder='ex. 15622'
                       />
                     </div>
                   </div>
@@ -99,21 +99,21 @@ export default function PurchasePage() {
                     type='text'
                     id='cname'
                     name='cardname'
-                    placeholder='John More Doe'
+                    placeholder='ex. John Moore Doe'
                   />
                   <label htmlFor='ccnum'>Credit card number</label>
                   <input
                     type='text'
                     id='ccnum'
                     name='cardnumber'
-                    placeholder='1111-2222-3333-4444'
+                    placeholder='ex. 1111-2222-3333-4444'
                   />
                   <label htmlFor='expmonth'>Exp Month</label>
                   <input
                     type='text'
                     id='expmonth'
                     name='expmonth'
-                    placeholder='September'
+                    placeholder='ex. September'
                   />
                   <div className='row'>
                     <div className='col-50'>
@@ -122,7 +122,7 @@ export default function PurchasePage() {
                         type='text'
                         id='expyear'
                         name='expyear'
-                        placeholder='2018'
+                        placeholder='ex. 2024'
                       />
                     </div>
                     <div className='col-50'>
@@ -148,7 +148,7 @@ export default function PurchasePage() {
               <input
                 type='submit'
                 value='Continue to checkout'
-                className='btn'
+                className='ex. btn'
               />
             </form>
           </div>

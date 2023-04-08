@@ -10,10 +10,10 @@ export default function AboutPage() {
           Our space tourism company, MSP (short for "Monke Space Programs"), is
           dedicated to providing our customers with the ultimate space travel
           experience. We offer a wide range of space travel options, from
-          suborbital joyrides to extended orbital vacations. Our
+          suborbital joyrides to extended orbital vacations at other planets. Our
           state-of-the-art spacecrafts are designed with safety and comfort in
           mind, and our team of experienced pilots and space experts ensure that
-          our customers receive all the necessary training and assistance before
+          our customers receive all the necessary training and instruction before
           and during their flight.
           <br />
           <br />
@@ -23,9 +23,10 @@ export default function AboutPage() {
           life-changing experience, and we pride ourselves on making space
           travel safe, comfortable, and accessible to everyone.
           <br />
-          <br /> Our reputation as a leader in the space tourism industry is
+          <br /> 
+          Our reputation as a leader in the space tourism industry is
           built on our commitment to providing our customers with a truly unique
-          and unparalleled experience. So join us and embark on a journey of a
+          and unparalleled experience. Join us and embark on a journey of a
           lifetime, as you explore the mysteries of space with MSP.
         </h1>
       </div>
