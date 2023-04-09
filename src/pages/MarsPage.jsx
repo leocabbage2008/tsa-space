@@ -14,7 +14,7 @@ export default function HomePage() {
     },
     {
       title: 'Mars Full',
-      price: '$2M',
+      price: '$3M',
       list: [
         'Stay at all of our locations on Mars',
         'Includes access to all of our Mars activities',
@@ -22,7 +22,7 @@ export default function HomePage() {
     },
     {
       title: '6+ party bundle',
-      price: '$3M',
+      price: '$2M',
       list: ['Same as full plan but with a discount for parties over 6!'],
     },
   ];
@@ -44,8 +44,8 @@ export default function HomePage() {
         <h2>
           With 26 locations on Mars, we provide places safe from Mars dust
           storms for you to relax, sleep, and recover from Mars's low gravity.
-          Also, we provide seasonal events on Mars as it's Seasons also have a
-          cycle just like Earth.
+          Also, we provide seasonal events on Mars as its seasons have a cycle
+          just like Earths'.
         </h2>
         <hr></hr>
         <h1>Close to Home</h1>

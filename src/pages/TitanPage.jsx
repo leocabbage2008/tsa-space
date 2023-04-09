@@ -37,7 +37,7 @@ export default function HomePage() {
           neutralizes outside conditions and makes walking on Titan as easy as
           walking on Earth. In addition, our spacecraft uses state-of-the-art
           thrusters for a max speed of 1/20th the speed of light, allowing you
-          to travel to titan in just 3 days!
+          to travel to Titan in just 3 days!
         </h2>
         <hr></hr>
         <h1>Attractions</h1>
