@@ -131,7 +131,7 @@ export default function PurchasePage() {
                         type='text'
                         id='cvv'
                         name='cvv'
-                        placeholder='352'
+                        placeholder=' ex. 111'
                       />
                     </div>
                   </div>
