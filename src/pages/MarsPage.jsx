@@ -9,7 +9,7 @@ export default function HomePage() {
       price: '$1M',
       list: [
         'Stay at all of our locations on Mars',
-        'Does not include access to all of our Mars activities, pay seperately for activitesi',
+        'Does not include access to all of our Mars activities, pay seperately for activites',
       ],
     },
     {
@@ -29,9 +29,9 @@ export default function HomePage() {
   return (
     <Layout>
       <div className='content'>
-        <h1 className='Title'>Mars</h1>
-        <h1>The Red Planet</h1>
-        <h2>
+        <h1 className='TitleM'>Mars</h1>
+        <h1 className='HeaderM'>The Red Planet</h1>
+        <h2 className='stuffM'>
           Mars has many great places for you to visit. You could take a hike on
           one of the Solar System's largest volcanoes, Olympus Mons for
           starters. Or you can travel to the poles and look at the frozen water
@@ -40,16 +40,16 @@ export default function HomePage() {
           that go through some of Mars' 'Seas'.
         </h2>
         <hr></hr>
-        <h1>Our Facilities</h1>
-        <h2>
+        <h1 className='HeaderM'>Our Facilities</h1>
+        <h2 className='stuffM'>
           With 26 locations on Mars, we provide places safe from Mars dust
           storms for you to relax, sleep, and recover from Mars's low gravity.
           Also, we provide seasonal events on Mars as its seasons have a cycle
           just like Earths'.
         </h2>
         <hr></hr>
-        <h1>Close to Home</h1>
-        <h2>
+        <h1 className='HeaderM'>Close to Home</h1>
+        <h2 className='stuffM'>
           Mars has many features that make it similar to Earth. It's day night
           cycle and seasonal cycle are close to Earth's allowing you do only
           have to adapt to the gravity. Of source there are some key differences
@@ -57,7 +57,7 @@ export default function HomePage() {
           and toxic soil but we provide suits that almost make it seem like you
           are back on Earth.
         </h2>
-        <h1 className='options'>Check out our purchase options</h1>
+        <h1 className='optionsM'>Check out our purchase options</h1>
 
         <PriceTable data={data} />
       </div>

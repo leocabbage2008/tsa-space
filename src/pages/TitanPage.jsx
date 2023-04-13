@@ -29,9 +29,9 @@ export default function HomePage() {
   return (
     <Layout>
       <div className='content'>
-        <h1 className='Title'>Titan</h1>
-        <h1>Cutting Edge Technology</h1>
-        <h2>
+        <h1 className='TitleT'>Titan</h1>
+        <h1 className='HeaderT'>Cutting Edge Technology</h1>
+        <h2 className='stuffT'>
           While the temperature on Titan may go down to −290 °F or −179 °C,
           don’t worry! We have highly-engineered protection suits that
           neutralizes outside conditions and makes walking on Titan as easy as
@@ -40,8 +40,8 @@ export default function HomePage() {
           to travel to Titan in just 3 days!
         </h2>
         <hr></hr>
-        <h1>Attractions</h1>
-        <h2>
+        <h1 className='HeaderT'>Attractions</h1>
+        <h2 className='stuffT'>
           Titan has a surface thats somewhat similar to Earth's, offering
           possibilities for rivers with methane and sand dunes in the equatorial
           regions. Be prepared for a world that seems eerily similar to Earth!
@@ -50,8 +50,8 @@ export default function HomePage() {
           facilities are able to simulate Earth's as well.
         </h2>
         <hr></hr>
-        <h1>Locations</h1>
-        <h2>
+        <h1 className='HeaderT'>Locations</h1>
+        <h2 className='stuffT'>
           With 9 locations on Titan, you can play hockey on Titan's ice,
           basketball with its low gravity of .138g, or unwind and relax at our
           hotel locations with artifical gravity. If you want to see some
@@ -59,7 +59,7 @@ export default function HomePage() {
           locations and journey to some great locations, including a journey
           above Titan's atmosphere to get a close view of Saturn's rings.
         </h2>
-        <h1 className='options'>Check out our purchase options</h1>
+        <h1 className='optionsT'>Check out our purchase options</h1>
 
         <PriceTable data={data} />
       </div>

@@ -1,20 +1,20 @@
-.Title {
+.TitleN{
     font-size: 5rem;
     margin-bottom: 4vh;
     text-align: center;
+    color:#198bfd;
 }
-
-.options {
+.HeaderN{
+    color:#198bfd;
+}
+.stuffN{
+    color: #25b8d5;
+}
+.optionsN{
+    color:#198bfd;
     margin-top: 7vh;
     margin-bottom: 7vh;
     text-align: center;
     font-size: 3rem;
 }
 
-h1{
-    color: #198bfd;
-}
-h2{
-    color: #25b8d5;
-
-}
