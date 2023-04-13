@@ -87,11 +87,9 @@ export default function DetailsPage() {
             fadeOut: 0,
         },
     ];
-
     const items = document.getElementsByClassName("scroll");
     const scrollText = createRef();
     const arrow = createRef();
-
     const handleScroll = () => {
         const position = window.pageYOffset;
 
@@ -99,7 +97,6 @@ export default function DetailsPage() {
             position / 15
         }px)`;
         arrow.current.style.transform = `translate(-50%, ${position / 5}px)`;
-        alert("The model may take a few seconds to load.");
         for (let i = 0; i < scrollPositions.length; i++) {
             if (i < items.length) {
                 let current = scrollPositions[i];
@@ -156,7 +153,9 @@ export default function DetailsPage() {
             window.removeEventListener("scroll", handleScroll);
         };
     });
-
+    window.onload = function () {
+        alert("The model may take a few seconds to load");
+    };
     return (
         <Layout height="8000px" contentHeight="0px">
             <div className="all">
