@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import "../assets/css/Titan.css";
-import PriceTable from "../components/PriceTable.jsx";
+import PriceTable from "../components/PriceTableNeptune.jsx";
 export default function HomePage() {
     const data = [
         {
