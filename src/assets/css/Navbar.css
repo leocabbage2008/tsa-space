@@ -53,10 +53,6 @@ nav {
         column-gap: 1rem;
     }
 
-    .nav-links a {
-        /* font-size: 1.5rem; */
-    }
-
     .sidebar-links {
         padding: 2rem 2rem;
     }
@@ -222,12 +218,6 @@ nav {
     display: flex;
     align-items: center;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .dropdown {
-        padding-top: 5px;
-    }
-} */
 
 .dropdown-content {
     width: 150px;

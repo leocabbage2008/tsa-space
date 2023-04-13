@@ -31,7 +31,7 @@ export default function HomePage() {
                 </div>
                 <div className="top-block-content">
                     <h1>
-                        The future of<br></br>travel in the present
+                        The future <br></br>of travel in the present
                     </h1>
                     <h2 className="description">
                         Check out our rocket{" "}
@@ -58,14 +58,14 @@ export default function HomePage() {
                         <a href="/mars">
                             <span class="link-filler"></span>
                         </a>
-                        <h1>Mars will show you a "Mars"velous time!</h1>
+                        <h1>Mars is a classic...</h1>
                         <img src={mars} alt="" />
                     </div>
                     <div className="planet-container">
                         <a href="/neptune">
                             <span class="link-filler"></span>
                         </a>
-                        <h1>Neptune is notorious for being fun!</h1>
+                        <h1>Neptune is an adventure!</h1>
                         <img src={neptune} alt="" />
                     </div>
                 </div>

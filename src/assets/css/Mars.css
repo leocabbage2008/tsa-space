@@ -1,20 +1,19 @@
-.TitleT{
+.TitleM{
     font-size: 5rem;
     margin-bottom: 4vh;
     text-align: center;
-    color:#b8a879;
+    color:#C67B5C;
 }
-.HeaderT{
-    color:#b8a879;
+.HeaderM{
+    color:#C67B5C;
 }
-.stuffT{
-    color: #e3d29f;
+.stuffM{
+    color: #E27B58;
 }
-.optionsT{
-    color:#b8a879;
+.optionsM{
+    color:#C67B5C;
     margin-top: 7vh;
     margin-bottom: 7vh;
     text-align: center;
     font-size: 3rem;
 }
-
