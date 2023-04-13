@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import '../assets/css/Titan.css';
+import '../assets/css/Neptune.css';
 import PriceTable from '../components/PriceTable.jsx';
 export default function NeptunePage() {
   const data = [
