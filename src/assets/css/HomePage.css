@@ -1,279 +1,307 @@
 .hero-container {
-  grid-column: 1 / -1;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .hero-container video {
-  pointer-events: none;
-  height: 900px;
-  position: relative;
-  transform: translateX(25%);
-  right: -15%;
-  object-fit: cover;
+    pointer-events: none;
+    height: 900px;
+    position: relative;
+    transform: translateX(25%);
+    right: -15%;
+    object-fit: cover;
 }
 
 .hero {
-  position: absolute;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+    position: absolute;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
 .hero h1 {
-  font-size: 7rem;
-  text-align: center;
+    font-size: 7rem;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1638px) {
-  .hero-container video {
-    transform: translate(-20%);
-  }
-  .hero {
-    width: 100%;
-  }
+    .hero-container video {
+        transform: translate(-20%);
+    }
+    .hero {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-  .hero-container video {
-    transform: translate(-30%);
-  }
-  .hero h1 {
-    font-size: 4rem;
-  }
+    .hero-container video {
+        transform: translate(-30%);
+    }
+    .hero h1 {
+        font-size: 4rem;
+    }
 }
 
 @media only screen and (max-width: 755px) {
-  .hero-container video {
-    transform: translate(-40%);
-  }
+    .hero-container video {
+        transform: translate(-40%);
+    }
 }
 
 .hero h2 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .hero a {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .hero-flex {
-  margin-top: 10px;
-  column-gap: 20px;
-  display: flex;
-  justify-content: space-between;
+    margin-top: 10px;
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .link {
-  color: var(--street-yellow);
-  font-family: 'Rajdhani', sans-serif;
+    color: var(--street-yellow);
+    font-family: "Rajdhani", sans-serif;
 }
 
 .link:hover {
-  color: var(--pink);
+    color: var(--pink);
 }
 
 .top-block {
-  position: relative;
-  padding-top: 35px;
-  color: #f4f3ee;
-  grid-column: 1 / -1;
+    position: relative;
+    padding-top: 35px;
+    color: #f4f3ee;
+    grid-column: 1 / -1;
 }
 
 .top-block-content {
-  position: absolute;
-  display: flex;
-  bottom: 20vh;
-  right: 2rem;
-  font-size: 7vh;
-  padding: 1.5rem;
-  text-align: right;
-  flex-direction: column;
+    position: absolute;
+    display: flex;
+    bottom: 20vh;
+    right: 2rem;
+    padding: 1.5rem;
+    text-align: right;
+    flex-direction: column;
+    height: auto;
 }
 
 .top-block-content * {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .top-block-content h1 {
-  font-size: 5rem;
-  text-align: right;
-  float: right;
+    font-size: 5rem;
 }
 
 .top-block-img {
-  transform: translateX(-15%);
-  width: 75vw;
+    transform: translateX(-15%);
+    width: 75vw;
 }
 
 .bottom-block {
-  position: relative;
-  padding-top: 35px;
-  color: #f4f3ee;
-  grid-column: 1 / -1;
-  text-align: center;
+    position: relative;
+    padding-top: 35px;
+    color: #f4f3ee;
+    grid-column: 1 / -1;
+    text-align: center;
 }
 
 .bottom-block h1 {
-  display: block;
-  font-size: 4rem;
+    display: block;
+    font-size: 4rem;
 }
 
 .bottom-block button {
-  margin: 2rem auto 4rem auto;
-  font-size: 2rem;
-  display: block;
-  color: white;
-  padding: 1rem;
-  background: var(--blue);
-  border-radius: 1rem;
+    margin: 2rem auto 4rem auto;
+    font-size: 2rem;
+    display: block;
+    color: white;
+    padding: 1rem;
+    background: var(--blue);
+    border-radius: 1rem;
 }
 
 .bottom-block button:hover {
-  cursor: pointer;
-  background: white;
-  color: var(--blue);
+    cursor: pointer;
+    background: white;
+    color: var(--blue);
 }
 
 .description {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 @media screen and (max-width: 1024px) {
-  .right-block {
-    grid: auto 1fr/1fr;
-  }
-  .top-block-content h1 {
-    font-size: 3rem;
-  }
-  .top-block-content {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-  }
-  .hero h1 {
-    font-size: 5rem;
-  }
+    .right-block {
+        grid: auto 1fr/1fr;
+    }
+    .hero h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+    .top-block-content h1 {
+        font-size: 6vw;
+    }
+    .description {
+        font-size: 4vw;
+    }
+    .top-block-content {
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 540px) {
+    .top-block-img {
+        width: 100vw;
+    }
+    .top-block-content h1 {
+        font-size: 8.5vw;
+    }
+    .description {
+        font-size: 6.5vw;
+    }
+    .top-block-content {
+        bottom: 15px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0;
+    }
+    .top-block {
+        height: 115vw;
+    }
+}
+
+@media screen and (max-width: 1301px) and (min-width: 1025px) {
+    .top-block-content {
+        bottom: 10vh;
+    }
+    .top-block-content h1 {
+        font-size: 4rem;
+    }
 }
 
 .left-block {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: black;
-  color: #f4f3ee;
-  grid-column: 1 / span 3;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: #f4f3ee;
+    grid-column: 1 / span 3;
 }
 
 .left-block-background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
 }
 
 .block-content {
-  background-color: #0b2f5e;
-  font-size: 1rem;
-  padding: 1.5rem;
-  padding-top: 3rem;
+    background-color: #0b2f5e;
+    font-size: 1rem;
+    padding: 1.5rem;
+    padding-top: 3rem;
 }
 
 .block-content * {
-  position: relative;
-  z-index: 100;
+    position: relative;
+    z-index: 100;
 }
 
 .block-content h1 {
-  position: relative;
-  font-size: 5rem;
-  z-index: 0;
+    position: relative;
+    font-size: 5rem;
+    z-index: 0;
 }
 
 .block-content a {
-  color: var(--street-yellow);
-  font-size: 5rem;
+    color: var(--street-yellow);
+    font-size: 5rem;
 }
 
 .block-img {
-  max-height: 500px;
-  width: 100%;
-  flex-grow: 1;
+    max-height: 500px;
+    width: 100%;
+    flex-grow: 1;
 }
 
 .block-img-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
-  .left-block {
-    grid: auto 1fr/1fr;
-  }
-  .block-content h1 {
-    font-size: 3rem;
-  }
-  .block-content {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-  }
-  .hero h1 {
-    font-size: 5rem;
-  }
-  .left-block .link {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .top-block-content {
-    grid: auto 1fr/1fr;
-  }
+    .left-block {
+        grid: auto 1fr/1fr;
+    }
+    .block-content h1 {
+        font-size: 3rem;
+    }
+    .block-content {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    .hero h1 {
+        font-size: 5rem;
+    }
+    .left-block .link {
+        font-size: 3rem;
+    }
 }
 
 .planets {
-  grid-column: 1 / span 3;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+    grid-column: 1 / span 3;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .planets-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .planet-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 400px;
 }
 
 .planet-container h1 {
-  text-align: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 1313px) {
-  .planet-container h1 {
-    font-size: 1.5rem;
-  }
-  .planets-container img {
-    padding-top: 5px;
-  }
-  .planets-title h1 {
-    font-size: 3.5rem;
-  }
+    .planet-container h1 {
+        font-size: 1.5rem;
+    }
+    .planets-container img {
+        padding-top: 5px;
+    }
+    .planets-title h1 {
+        font-size: 3.5rem;
+    }
 }
 
 .planets h1,
@@ -282,55 +310,55 @@ h3,
 h4,
 h5,
 h6 {
-  color: white;
+    color: white;
 }
 
 .planets h6 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .planets-title {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .planets-container img {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-  object-fit: cover;
-  padding-top: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    object-fit: cover;
+    padding-top: 10px;
 }
 
 .link-filler {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .link-filler :hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 775px) {
-  .planets-container {
-    grid-template-columns: 1fr;
-    padding-left: 25px;
-    padding-right: 25px;
-    flex-direction: column;
-    row-gap: 35px;
-  }
-  .planets-title h1 {
-    font-size: 3.5rem;
-  }
-  .planet-container h1 {
-    font-size: 1.8rem;
-  }
-  .planet-container {
-    width: auto;
-  }
+    .planets-container {
+        grid-template-columns: 1fr;
+        padding-left: 25px;
+        padding-right: 25px;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+    .planets-title h1 {
+        font-size: 3.5rem;
+    }
+    .planet-container h1 {
+        font-size: 1.8rem;
+    }
+    .planet-container {
+        width: auto;
+    }
 }
