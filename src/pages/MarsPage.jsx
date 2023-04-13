@@ -38,7 +38,7 @@ export default function HomePage() {
                     frozen water that could've hade life billions of years ago
                     in a different age. If you aren't a bumpy terrain kind of
                     person we offer trips on vehicles that go through some of
-                    Mars' 'Seas'.
+                    Mars' Seas.
                 </h2>
                 <hr></hr>
                 <h1 className="HeaderM">Our Facilities</h1>
