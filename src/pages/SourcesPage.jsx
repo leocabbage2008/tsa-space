@@ -79,7 +79,14 @@ export default function SourcesPage() {
           <Source title='Titan Pictures'>
             <a href='https://solarsystem.nasa.gov/resources/16089/titans-subsurface-reservoirs-annotated/'>
               Image of Titan's surface layers
-            </a> 
+            </a>
+            <p>(Public Domain)</p>
+            <br />
+          </Source>
+          <Source title='About Us page pictures'>
+            <a href='https://unsplash.com/photos/Q1p7bh3SHj8'>
+              Image of Earth from outer space
+            </a>
             <p>(Public Domain)</p>
             <br />
           </Source>
